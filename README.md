@@ -10,16 +10,13 @@
 
 ### 💾 [SYSTEM_METRICS & TELEMETRY]
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FreeFades2Black&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=00FFCC&icon_color=FF007F&text_color=C0C0C0&bg_color=0D0E15" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreeFades2Black&layout=compact&theme=tokyonight&hide_border=true&title_color=00FFCC&text_color=C0C0C0&bg_color=0D0E15" width="48%" />
-</p>
+![Free's GitHub Stats](https://github-readme-stats.vercel.app/api?username=FreeFades2Black&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=00FFCC&icon_color=FF007F&text_color=C0C0C0&bg_color=0D0E15)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FreeFades2Black&layout=compact&theme=tokyonight&hide_border=true&title_color=00FFCC&text_color=C0C0C0&bg_color=0D0E15)
 
 ### 🏆 [NEURAL_NET_TROPHIES]
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=FreeFades2Black&theme=tokyonight&no-frame=true&column=4" />
-</p>
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=FreeFades2Black&theme=tokyonight&no-frame=true&column=4)
 
 ---
 
