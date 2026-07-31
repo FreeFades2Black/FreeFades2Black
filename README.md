@@ -3,13 +3,15 @@
 </p>
 
 <p align="center">
-  <img src="assets/terminal-status.svg?v=' + $timestamp + '" alt="Animated Terminal Status" width="100%">
-</p>
-
-<p align="center">
   <img src="assets/cyber-header.png" alt="Cyberpunk Netrunner Header" width="100%">
 </p>
 
+<p align="center" style="position: relative; top: -160px; margin-bottom: -150px;">
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/your-portrait.jpg" 
+       alt="Free Fades 2 Black Portrait" 
+       width="300px" 
+       style="border-radius: 50%; box-shadow: 0 0 20px #00ff66, 0 0 40px #00ff66, 0 0 60px #00ff66; border: 3px solid #0d1117;" />
+</p>
 ---
 
 <img src="assets/header-metrics.svg?v=' + $timestamp + '" alt="System Metrics Header" width="100%" />
