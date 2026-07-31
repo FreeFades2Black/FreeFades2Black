@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="120">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .bg { fill: #0d1117; rx: 8px; }
+      .border { stroke: #00ff66; stroke-width: 1.5; fill: none; opacity: 0.5; }
+      .text {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 14px;
+        fill: #00ff66;
+        filter: drop-shadow(0 0 8px #00ff66);
+        animation: glowPulse 2s infinite alternate;
+      }
+      @keyframes glowPulse { 
+        0% { filter: drop-shadow(0 0 2px #00ff66); opacity: 0.85; } 
+        100% { filter: drop-shadow(0 0 16px #00ff66); opacity: 1; } 
+      }
+    </style>
+  </defs>
+  <rect width="800" height="120" class="bg" />
+  <rect x="2" y="2" width="796" height="116" class="border" />
+  <text x="30" y="35" class="text">Stand and be true. I do not kill with my gun;</text>
+  <text x="30" y="65" class="text">he who kills with his gun has forgotten the face</text>
+  <text x="30" y="95" class="text">of his father. I kill with my heart.</text>
+</svg>

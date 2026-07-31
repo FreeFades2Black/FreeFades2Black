@@ -1,4 +1,8 @@
 ﻿<p align="center">
+  <img src="assets/gunslinger-bio.svg?v=' + $timestamp + '" alt="Gunslinger Creed" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/terminal-status.svg?v=' + $timestamp + '" alt="Animated Terminal Status" width="100%">
 </p>
 
