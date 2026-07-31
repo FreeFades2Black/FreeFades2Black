@@ -14,7 +14,7 @@
         white-space: nowrap;
         border-right: 2px solid #00ff66;
         width: 0;
-        animation: typing 2s steps(30, end) 2.8s forwards, blink 0.75s step-end infinite, glowPulse 2s infinite alternate;
+        animation: typing 2s steps(34, end) 2.8s forwards, blink 0.75s step-end infinite, glowPulse 2s infinite alternate;
       }
       @keyframes typing { from { width: 0; } to { width: 100%; } }
       @keyframes blink { from, to { border-color: transparent; } 50% { border-color: #00ff66; } }
