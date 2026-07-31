@@ -6,11 +6,11 @@
   <img src="assets/cyber-header.png" alt="Cyberpunk Netrunner Header" width="100%">
 </p>
 
-<p align="center" style="position: relative; top: -100px; margin-bottom: -90px;">
+<p align="center" style="position: relative; top: -65px; margin-bottom: -55px;">
   <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/your-portrait.jpg" 
        alt="Free Fades 2 Black Portrait" 
-       width="180px" 
-       style="border-radius: 50%; box-shadow: 0 0 15px #00ff66, 0 0 30px #00ff66; border: 2px solid #0d1117;" />
+       width="100px" 
+       style="border-radius: 50%; box-shadow: 0 0 12px #00ff66, 0 0 24px #00ff66; border: 2px solid #0d1117;" />
 </p>
 ---
 
