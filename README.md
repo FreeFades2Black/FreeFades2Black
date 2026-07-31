@@ -1,29 +1,32 @@
-﻿<div align="center">
+﻿<p align="center">
+  <img src="assets/cyber-header.png" alt="Cyberpunk Netrunner Header" width="100%">
+</p>
 
-# ⚡ SYSTEM_ONLINE // NETRUNNER_INITIALIZED ⚡
-
-<img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/cyber-header.png" alt="Cyberpunk Netrunner Header" width="100%">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=24&duration=3500&pause=1000&color=00FFCC&center=true&vCenter=true&width=600&height=50&lines=SYSTEM_STATUS%3A_ONLINE...;NEURAL_LINK%3A_ESTABLISHED;TERMINAL_ACCESS_GRANTED)](https://git.io/typing-svg)
-
-</div>
+<p align="center">
+  <span style="color: #00ff66; text-shadow: 0 0 10px #00ff66, 0 0 20px #00ff66; font-family: monospace; font-weight: bold; font-size: 1.1em;">
+    [ SYSTEM_ONLINE // NETRUNNER_INITIALIZED ]
+  </span>
+</p>
 
 ---
 
 ### 💾 [SYSTEM_METRICS & TELEMETRY]
 
-![Free's GitHub Stats](https://github-readme-stats.vercel.app/api?username=FreeFades2Black&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=00FFCC&icon_color=FF007F&text_color=C0C0C0&bg_color=0D0E15)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FreeFades2Black&layout=compact&theme=tokyonight&hide_border=true&title_color=00FFCC&text_color=C0C0C0&bg_color=0D0E15)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=FreeFades2Black&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="Free's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreeFades2Black&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+</p>
 
 ### 🏆 [NEURAL_NET_TROPHIES]
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=FreeFades2Black&theme=tokyonight&no-frame=true&column=4)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=FreeFades2Black&theme=radical&no_frame=true&margin_w=4&margin_h=4" alt="GitHub Trophies" />
+</p>
 
 ---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00FFCC?style=for-the-badge&logo=gnu-bash&logoColor=black" />
-  <img src="https://img.shields.io/badge/SECURITY-ENCRYPTED-FF007F?style=for-the-badge&logo=awesomewm&logoColor=white" />
-  <img src="https://img.shields.io/badge/PROTOCOL-DEVOPS-7000FF?style=for-the-badge&logo=kubernetes&logoColor=white" />
-</div>
+<p align="center">
+  <code>STATUS: OPERATIONAL</code> &nbsp;|&nbsp; 
+  <code>SECURITY: ENCRYPTED</code> &nbsp;|&nbsp; 
+  <code>PROTOCOL: DEVOPS</code>
+</p>
