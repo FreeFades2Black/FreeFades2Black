@@ -29,7 +29,5 @@
 ---
 
 <p align="center">
-  <code>STATUS: OPERATIONAL</code> &nbsp;|&nbsp; 
-  <code>SECURITY: ENCRYPTED</code> &nbsp;|&nbsp; 
-  <code>PROTOCOL: DEVOPS</code>
+  <img src="assets/footer-status.svg?v=' + $timestamp + '" alt="Footer Status" width="100%" />
 </p>
