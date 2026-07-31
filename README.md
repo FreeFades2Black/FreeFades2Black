@@ -22,6 +22,10 @@
   <img src="https://github-profile-trophy.vercel.app/?username=FreeFades2Black&theme=radical&no_frame=true&margin_w=4&margin_h=4" alt="GitHub Trophies" />
 </p>
 
+<img src="assets/header-repos.svg" alt="Popular Repositories Header" width="100%" />
+
+<img src="assets/header-contributions.svg" alt="Contribution Matrix Header" width="100%" />
+
 ---
 
 <p align="center">
