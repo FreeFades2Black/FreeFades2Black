@@ -8,14 +8,14 @@
 
 ---
 
-### 💾 [SYSTEM_METRICS & TELEMETRY]
+<img src="assets/header-metrics.svg" alt="System Metrics Header" width="100%" />
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=FreeFades2Black&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="Free's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreeFades2Black&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" />
 </p>
 
-### 🏆 [NEURAL_NET_TROPHIES]
+<img src="assets/header-trophies.svg" alt="Neural Net Trophies Header" width="100%" />
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=FreeFades2Black&theme=radical&no_frame=true&margin_w=4&margin_h=4" alt="GitHub Trophies" />
