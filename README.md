@@ -2,7 +2,9 @@
 
 # ⚡ SYSTEM_ONLINE // NETRUNNER_INITIALIZED ⚡
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=24&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=600&height=50&lines=ROOT_ACCESS_GRANTED...;CLOUD_INFRASTRUCTURE+%26+DEVOPS_AUTOMATION;SECURE_TERMINAL_ACTIVE)](https://git.io/typing-svg)
+<img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/cyber-header.png" alt="Cyberpunk Netrunner Header" width="100%">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=24&duration=3500&pause=1000&color=00FFCC&center=true&vCenter=true&width=600&height=50&lines=SYSTEM_STATUS%3A_ONLINE...;NEURAL_LINK%3A_ESTABLISHED;TERMINAL_ACCESS_GRANTED)](https://git.io/typing-svg)
 
 </div>
 
