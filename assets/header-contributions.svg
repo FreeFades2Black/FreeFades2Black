@@ -8,14 +8,16 @@
         fill: #00ff66;
         filter: drop-shadow(0 0 8px #00ff66);
       }
-      .pulse {
-        animation: glowPulse 2s infinite alternate;
+      .typing {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 2px solid #00ff66;
+        animation: typing 3s steps(38, end) forwards, blink 0.75s step-end infinite;
       }
-      @keyframes glowPulse {
-        0% { opacity: 0.4; filter: drop-shadow(0 0 2px #00ff66); }
-        100% { opacity: 1; filter: drop-shadow(0 0 14px #00ff66); }
-      }
+      @keyframes typing { from { width: 0; } to { width: 100%; } }
+      @keyframes blink { from, to { border-color: transparent; } 50% { border-color: #00ff66; } }
     </style>
   </defs>
-  <text x="0" y="32" class="text pulse">📈 [ CONTRIBUTION_MATRIX // ACTIVITY_GRID ]</text>
+  <text x="0" y="32" class="text"><tspan class="typing">📈 [ CONTRIBUTION_MATRIX // ACTIVITY_GRID ]</tspan></text>
 </svg>

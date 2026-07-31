@@ -9,21 +9,31 @@
         font-size: 18px;
         fill: #00ff66;
         filter: drop-shadow(0 0 8px #00ff66);
+        white-space: pre;
+        overflow: hidden;
+        border-right: 2px solid #00ff66;
+        width: 0;
+        display: inline-block;
       }
-      .pulse {
-        animation: glowPulse 2s infinite alternate;
+      .typing {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3.5s steps(35, end) forwards, blink 0.75s step-end infinite;
       }
-      @keyframes glowPulse {
-        0% { opacity: 0.4; filter: drop-shadow(0 0 2px #00ff66); }
-        100% { opacity: 1; filter: drop-shadow(0 0 14px #00ff66); }
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes blink {
+        from, to { border-color: transparent; }
+        50% { border-color: #00ff66; }
       }
     </style>
   </defs>
-  
   <rect width="800" height="60" class="bg" />
   <rect x="2" y="2" width="796" height="56" class="border" />
-  
-  <text x="400" y="37" text-anchor="middle" class="text pulse">
-    [ SYSTEM_ONLINE // NETRUNNER_INITIALIZED ]
+  <text x="400" y="37" text-anchor="middle" class="text">
+    <tspan class="typing">[ SYSTEM_ONLINE // NETRUNNER_INITIALIZED ]</tspan>
   </text>
 </svg>
