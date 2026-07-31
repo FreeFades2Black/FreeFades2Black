@@ -9,26 +9,18 @@
         font-size: 18px;
         fill: #00ff66;
         filter: drop-shadow(0 0 8px #00ff66);
-        white-space: pre;
-        overflow: hidden;
-        border-right: 2px solid #00ff66;
-        width: 0;
-        display: inline-block;
       }
       .typing {
         display: inline-block;
         overflow: hidden;
         white-space: nowrap;
-        animation: typing 3.5s steps(35, end) forwards, blink 0.75s step-end infinite;
+        border-right: 2px solid #00ff66;
+        width: 0;
+        animation: typing 2.5s steps(38, end) 0.2s forwards, blink 0.75s step-end infinite, glowPulse 2s infinite alternate;
       }
-      @keyframes typing {
-        from { width: 0; }
-        to { width: 100%; }
-      }
-      @keyframes blink {
-        from, to { border-color: transparent; }
-        50% { border-color: #00ff66; }
-      }
+      @keyframes typing { from { width: 0; } to { width: 100%; } }
+      @keyframes blink { from, to { border-color: transparent; } 50% { border-color: #00ff66; } }
+      @keyframes glowPulse { 0% { filter: drop-shadow(0 0 2px #00ff66); } 100% { filter: drop-shadow(0 0 14px #00ff66); } }
     </style>
   </defs>
   <rect width="800" height="60" class="bg" />
