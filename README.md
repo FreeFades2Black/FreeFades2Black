@@ -1,9 +1,9 @@
 ﻿<p align="center">
-  <img src="assets/cyber-header.png" alt="Cyberpunk Netrunner Header" width="100%">
+  <img src="assets/terminal-status.svg" alt="Animated Terminal Status" width="100%">
 </p>
 
 <p align="center">
-  <img src="assets/terminal-status.svg" alt="Animated Terminal Status" width="100%">
+  <img src="assets/cyber-header.png" alt="Cyberpunk Netrunner Header" width="100%">
 </p>
 
 ---
