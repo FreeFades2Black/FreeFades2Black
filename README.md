@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="assets/gunslinger-bio.svg?v=' + $timestamp + '" alt="Gunslinger Creed" width="100%">
+  <img src="assets/tears-in-rain-bio.svg?v=' + $timestamp + '" alt="Tears in Rain Monologue" width="100%">
 </p>
 
 <p align="center">
