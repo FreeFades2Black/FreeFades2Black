@@ -1,13 +1,30 @@
-﻿# ⚡ SYSTEM_ONLINE // FreeFades2Black
+﻿<div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=24&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=550&height=50&lines=INITIATING_DEVOPS_PROTOCOL...;CLOUD_INFRASTRUCTURE+%26+AUTOMATION;NETRUNNER_ACTIVE)](https://git.io/typing-svg)
+# ⚡ TERMINAL_ACCESS // [SECURE_NET_ACTIVE] ⚡
 
-### 💾 [SYSTEM_STATS]
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=24&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=600&height=50&lines=ROOT_ACCESS_GRANTED...;SYSTEM_ENGINEERING_%26_CLOUD_INFRASTRUCTURE;NETRUNNER_ONLINE)](https://git.io/typing-svg)
 
-![Free's GitHub Stats](https://github-readme-stats.vercel.io/api?username=FreeFades2Black&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+</div>
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=FreeFades2Black&theme=tokyonight&no-frame=true&column=4)](https://github.com/ryo-ma/github-profile-trophy)
+---
 
-### 🖥️ [NEURAL_NET_LANGUAGES]
+### 💾 [SYSTEM_METRICS & NEURAL_NET_TROPHIES]
 
-![Top Languages](https://github-readme-stats.vercel.io/api/top-langs/?username=FreeFades2Black&layout=compact&theme=tokyonight&hide_border=true)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.io/api?username=FreeFades2Black&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=00FFCC&icon_color=FF007F&text_color=C0C0C0&bg_color=0D0E15" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=FreeFades2Black&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15" />
+</p>
+
+### 🖥️ [CORE_LANGUAGES_CHIPS]
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.io/api/top-langs/?username=FreeFades2Black&layout=compact&theme=tokyonight&hide_border=true&title_color=00FFCC&text_color=C0C0C0&bg_color=0D0E15" />
+</p>
+
+---
+<div align="center">
+  <code>[SYSTEM STATUS: OPERATIONAL]</code> • <code>[ENCRYPTION: SHA-256]</code> • <code>[PROTOCOL: DEVOPS]</code>
+</div>
