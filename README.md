@@ -3,9 +3,7 @@
 </p>
 
 <p align="center">
-  <span style="color: #00ff66; text-shadow: 0 0 10px #00ff66, 0 0 20px #00ff66; font-family: monospace; font-weight: bold; font-size: 1.1em;">
-    [ SYSTEM_ONLINE // NETRUNNER_INITIALIZED ]
-  </span>
+  <img src="assets/terminal-status.svg" alt="Animated Terminal Status" width="100%">
 </p>
 
 ---

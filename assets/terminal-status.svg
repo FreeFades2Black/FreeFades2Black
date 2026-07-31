@@ -1,0 +1,29 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="100%" height="60">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .bg { fill: #0d1117; rx: 6px; }
+      .border { stroke: #00ff66; stroke-width: 1.5; fill: none; opacity: 0.6; }
+      .text {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 18px;
+        fill: #00ff66;
+        filter: drop-shadow(0 0 8px #00ff66);
+      }
+      .pulse {
+        animation: glowPulse 2s infinite alternate;
+      }
+      @keyframes glowPulse {
+        0% { opacity: 0.4; filter: drop-shadow(0 0 2px #00ff66); }
+        100% { opacity: 1; filter: drop-shadow(0 0 14px #00ff66); }
+      }
+    </style>
+  </defs>
+  
+  <rect width="800" height="60" class="bg" />
+  <rect x="2" y="2" width="796" height="56" class="border" />
+  
+  <text x="400" y="37" text-anchor="middle" class="text pulse">
+    [ SYSTEM_ONLINE // NETRUNNER_INITIALIZED ]
+  </text>
+</svg>
