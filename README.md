@@ -1,6 +1,7 @@
-### Command & Control / Organizations
+### Command & Control / Organizations & Projects
 
 [![For-Your-Service](https://img.shields.io/badge/Organization-For_Your_Service-blue?style=for-the-badge&logo=github)](https://github.com/For-Your-Service)
+[![Gunslingers-Desktop-Ledger](https://img.shields.io/badge/Project-Gunslinger's_Desktop_Ledger-blueviolet?style=for-the-badge&logo=python)](https://github.com/FreeFades2Black/gunslingers-desktop-ledger)
 
 ---
 
