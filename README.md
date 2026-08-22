@@ -1,7 +1,15 @@
-# William Free Hall (freefades2black) 🇺🇸
-
-**Cloud Engineer • DevOps Analyst • Data Architect**  
+# William Free Hall (Free) 🇺🇸
+### Solutions Architect & Cloud/Data Engineer | Special Operations Veteran
 *18Z / 18F, US Army Special Forces (Ret.)* | **Partner:** 7 Eagle Group
+
+---
+
+## 🚀 Status Badges
+
+[![Streak Master](https://img.shields.io/badge/🔥_STREAK_MASTER-ACTIVE-orange?style=flat-square)]() 
+[![Speed Coder](https://img.shields.io/badge/⚡_SPEED_CODER-READY-blue?style=flat-square)]() 
+[![Open Source](https://img.shields.io/badge/🌟_OPEN_SOURCE-CONTRIBUTOR-yellow?style=flat-square)]() 
+[![Innovation](https://img.shields.io/badge/🚀_INNOVATION-AI_PIONEER-purple?style=flat-square)]()
 
 ---
 
@@ -15,6 +23,45 @@
 [![AWS Infrastructure](https://img.shields.io/badge/AWS-S3_%7C_LAMBDA_%7C_IAM-232F3E?style=flat-square&logo=amazon-aws)](https://aws.amazon.com)
 [![Hugging Face](https://img.shields.io/badge/HUGGING_FACE-EMBEDDINGS_%7C_SPACES-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/FreeFades2Black)
 [![Streamlit Cloud](https://img.shields.io/badge/STREAMLIT-COMMUNITY_CLOUD-FF4B4B?style=flat-square&logo=streamlit)](https://share.streamlit.io)
+
+---
+
+## 📊 Advanced Productivity & Performance Metrics
+
+### 📈 GitHub Activity & Overview
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=FreeFades2Black&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreeFades2Black&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
+### 📉 Commits & Streak Stats
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FreeFades2Black&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=For-Your-Service&repo=For-Your-Service&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
+---
+
+## 🎯 Tech DNA Sequence
+
+```javascript
+const williamFreeHall = {
+    roles: ["Technical Lead", "Solutions Architect", "Cloud & Data Engineer"],
+    military_background: "18Z / 18F Special Forces Operations & Intelligence",
+    infrastructure: {
+        cloud: ["AWS ☁️", "Databricks 🧱", "Google Cloud Platform 🌐", "Azure ⚡"],
+        containers_orchestration: ["Docker 🐳", "Kubernetes ☸️", "Serverless Apps 🚀"],
+        iac_automation: ["Terraform 🏗️", "GitHub Actions 🔄", "PowerShell 💻"]
+    },
+    data_engineering: {
+        frameworks: ["PySpark ⚡", "Databricks Unity Catalog 🧊", "Delta Lake 🌊"],
+        vector_ai: ["Sentence-Transformers 🧠", "Hugging Face Models 🤖"],
+        databases: ["Amazon DynamoDB 🗄️", "Amazon S3 📦", "BigQuery 📊"]
+    },
+    programming: ["Python 🐍", "SQL 📊", "PowerShell ⚙️", "Bash/Shell 💻"]
+};
+console.log("Ready to engineer resilient systems! 🚀");
+```
 
 ---
 
