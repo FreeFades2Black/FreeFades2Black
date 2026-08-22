@@ -7,9 +7,14 @@
 
 ### 🏛️ Command & Control / Organizations & Projects
 
-[![For-Your-Service](https://img.shields.io/badge/Organization-For_Your_Service-blue?style=for-the-badge&logo=github)](https://github.com/For-Your-Service)
-[![Gunslingers-Desktop-Ledger](https://img.shields.io/badge/Project-Gunslinger's_Desktop_Ledger-blueviolet?style=for-the-badge&logo=python)](https://github.com/FreeFades2Black/gunslingers-desktop-ledger)
-[![Databricks-Apps](https://img.shields.io/badge/Databricks_Apps-fys--matching--app-orange?style=for-the-badge&logo=databricks)](https://fys-matching-app-7474643734871839.aws.databricksapps.com)
+[![Organization](https://img.shields.io/badge/ORGANIZATION-FOR_YOUR_SERVICE-blue?style=flat-square&logo=github)](https://github.com/For-Your-Service) 
+[![Project](https://img.shields.io/badge/PROJECT-GUNSLINGER'S_DESKTOP_LEDGER-purple?style=flat-square&logo=python)](https://github.com/FreeFades2Black/gunslingers-desktop-ledger)
+[![Project](https://img.shields.io/badge/PROJECT-WINDOWS_CERT_MANAGER-0078D4?style=flat-square&logo=windows)](https://github.com/FreeFades2Black/windows_cert_manager)
+[![Databricks Apps](https://img.shields.io/badge/DATABRICKS_APPS-FYS_MATCHING_APP-FF3621?style=flat-square&logo=databricks)](https://fys-matching-app-7474643734871839.aws.databricksapps.com)
+
+[![AWS Infrastructure](https://img.shields.io/badge/AWS-S3_%7C_LAMBDA_%7C_IAM-232F3E?style=flat-square&logo=amazon-aws)](https://aws.amazon.com)
+[![Hugging Face](https://img.shields.io/badge/HUGGING_FACE-EMBEDDINGS_%7C_SPACES-FFD21E?style=flat-square&logo=huggingface)](https://huggingface.co/FreeFades2Black)
+[![Streamlit Cloud](https://img.shields.io/badge/STREAMLIT-COMMUNITY_CLOUD-FF4B4B?style=flat-square&logo=streamlit)](https://share.streamlit.io)
 
 ---
 
@@ -20,10 +25,10 @@
 
 | Component | Status | Details |
 | :--- | :--- | :--- |
-| **🧪 Automated Test Suite** | 🟢 **100% PASSING** | **126 / 126 unit & integration tests passing** |
+| **🧪 Automated Test Suite** | 🟢 **100% PASSING** | **189 / 189 unit & integration tests passing** |
 | **🌐 Veteran Portal Service** | 🟢 **ONLINE** | Databricks Apps & Streamlit Runtime (`Port 8501`) |
 | **🧠 Neural Matching Engine** | 🟢 **ACTIVE** | `sentence-transformers/all-MiniLM-L6-v2` |
-| **🇺🇸 Federal Pipeline** | 🟢 **LIVE** | Integrated USAJOBS & Defense Contractor Feeds |
+| **🇺🇸 Federal Pipeline** | 🟢 **LIVE** | Integrated USAJOBS & 25+ Defense Contractor Feeds |
 | **📊 Platform Impact Baseline** | 🟢 **TRACKING** | **1,420+ Visitors** • **865+ Matches Run** • **218+ Recruiter Intros** |
 
 🔗 *[View Full System Health & Compute Telemetry Report](https://github.com/For-Your-Service/For-Your-Service/blob/main/docs/SYSTEM_HEALTH.md)*
