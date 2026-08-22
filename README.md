@@ -1,10 +1,16 @@
 # William Free Hall (Free) 🇺🇸
-### Solutions Architect & Cloud/Data Engineer | Special Operations Veteran
+### Solutions Architect • Cloud & Data Engineer • Special Operations Veteran
 *18Z / 18F, US Army Special Forces (Ret.)* | **Partner:** 7 Eagle Group
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=FreeFades2Black&color=blueviolet&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/COMMITS-1.5K+-brightgreen?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/TESTS-189_PASSED-success?style=flat-square&logo=pytest" alt="Tests Passed" />
+</p>
 
 ---
 
-## 🚀 Status Badges
+## 🚀 Status & Achievement Badges
 
 [![Streak Master](https://img.shields.io/badge/🔥_STREAK_MASTER-ACTIVE-orange?style=flat-square)]() 
 [![Speed Coder](https://img.shields.io/badge/⚡_SPEED_CODER-READY-blue?style=flat-square)]() 
@@ -26,19 +32,14 @@
 
 ---
 
-## 📊 Advanced Productivity & Performance Metrics
+## 🛠️ Core Technology & Architecture Stack
 
-### 📈 GitHub Activity & Overview
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FreeFades2Black&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreeFades2Black&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-
-### 📉 Commits & Streak Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FreeFades2Black&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=For-Your-Service&repo=For-Your-Service&theme=tokyonight&hide_border=true" width="48%" />
-</p>
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Cloud & Distributed Compute** | ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) |
+| **Data Engineering & Lakehouse** | ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white) ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=flat-square&logo=delta&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazon-dynamodb&logoColor=white) |
+| **DevOps & Infrastructure as Code** | ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+| **Programming & AI Frameworks** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) |
 
 ---
 
