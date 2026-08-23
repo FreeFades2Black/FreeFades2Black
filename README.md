@@ -31,6 +31,28 @@
 
 ---
 
+## 🐍 Neural Grid Activity Matrix (Live Contribution Stream)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</p>
+
+---
+
+## ⚡ Interactive Terminal Command Card
+
+Run the interactive cyberpunk operator business card instantly in any terminal:
+
+```bash
+npx @freefades2black/card
+```
+
+---
+
 ## 🛠️ Core Technology & Cloud Subsystems
 
 <p align="center">
