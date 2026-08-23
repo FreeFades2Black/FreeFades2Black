@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF66,100:003311&height=220&section=header&text=WILLIAM%20FREE%20HALL&fontSize=38&fontColor=00FF66&animation=fadeIn&fontAlignY=38&desc=SOLUTIONS%20ARCHITECT%20%7C%20CLOUD%20%26%20DATA%20ENGINEER&descSize=18&descColor=00FF66" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF66,100:003311&height=220&section=header&text=WILLIAM%20FREE%20HALL&fontSize=38&fontColor=00FF66&animation=fadeIn&fontAlignY=38&desc=SOLUTIONS%20ARCHITECT%20%7C%20CLOUD%20AND%20DATA%20ENGINEER&descSize=18&descColor=00FF66" width="100%" alt="Header Banner" />
 </p>
 
 # Solutions Architect & Cloud/Data Engineer | Special Operations Veteran
