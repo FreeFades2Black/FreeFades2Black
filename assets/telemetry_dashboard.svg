@@ -1,37 +1,33 @@
-<svg width="850" height="380" viewBox="0 0 850 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="490" viewBox="0 0 850 490" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Multi-Color Neon Phosphor Glow Filters -->
     <filter id="glow-green-tel" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
-        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <filter id="glow-cyan-tel" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
-        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <filter id="glow-magenta-tel" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
-        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <filter id="glow-amber-tel" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
-        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
@@ -43,14 +39,14 @@
     </pattern>
 
     <!-- Deep Synthwave Chassis Gradient -->
-    <linearGradient id="chassis-grad-tel" x1="0" y1="0" x2="850" y2="380" gradientUnits="userSpaceOnUse">
+    <linearGradient id="chassis-grad-tel" x1="0" y1="0" x2="850" y2="490" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#02080a"/>
       <stop offset="50%" stop-color="#041214"/>
       <stop offset="100%" stop-color="#010608"/>
     </linearGradient>
 
     <!-- Glowing Cyber Border Gradient -->
-    <linearGradient id="neon-border-tel" x1="0" y1="0" x2="850" y2="380" gradientUnits="userSpaceOnUse">
+    <linearGradient id="neon-border-tel" x1="0" y1="0" x2="850" y2="490" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#00F0FF"/>
       <stop offset="35%" stop-color="#00FF66"/>
       <stop offset="70%" stop-color="#FF007F"/>
@@ -78,44 +74,50 @@
 
     .box-title {
       font-family: 'Press Start 2P', monospace;
-      font-size: 9.5px;
-      letter-spacing: 0.5px;
+      font-size: 10px;
+      letter-spacing: 0.8px;
     }
 
-    .tel-txt {
+    .tel-lbl {
       font-family: 'VT323', monospace;
-      font-size: 18px;
+      font-size: 19px;
+      letter-spacing: 1px;
+    }
+
+    .tel-bar {
+      font-family: 'VT323', monospace;
+      font-size: 19px;
       letter-spacing: 1px;
     }
 
     .tel-val {
       font-family: 'VT323', monospace;
-      font-size: 20px;
-      font-weight: bold;
-      letter-spacing: 1.2px;
+      font-size: 18px;
+      fill: #E2E8F0;
+      letter-spacing: 0.8px;
     }
 
     .c-green { fill: #00FF66; filter: url(#glow-green-tel); }
     .c-cyan { fill: #00F0FF; filter: url(#glow-cyan-tel); }
     .c-magenta { fill: #FF007F; filter: url(#glow-magenta-tel); }
     .c-amber { fill: #FFD700; filter: url(#glow-amber-tel); }
-    .c-white { fill: #E2E8F0; }
+    .c-white { fill: #FFFFFF; }
 
     .pulse-box {
       animation: chassisPulse 3.5s ease-in-out infinite alternate;
     }
 
     @keyframes chassisPulse {
-      0% { opacity: 0.88; }
+      0% { opacity: 0.9; }
       100% { opacity: 1; }
     }
   </style>
 
   <!-- 1980s Glowing Chassis Outer Frame -->
-  <rect x="2" y="2" width="846" height="376" rx="8" fill="url(#chassis-grad-tel)" stroke="url(#neon-border-tel)" stroke-width="2" class="pulse-box"/>
+  <rect x="2" y="2" width="846" height="486" rx="8" fill="url(#chassis-grad-tel)" stroke="url(#neon-border-tel)" stroke-width="2" class="pulse-box"/>
   
   <!-- CRT Scanlines -->
-  <rect x="2" y="2" width="846" height="376" rx="8" fill="url(#telemetry-scanlines)" />
+  <rect x="2" y="2" width="846" height="486" rx="8" fill="url(#telemetry-scanlines)" />
 
   <!-- Window Header Bar -->
   <path d="M 2 8 Q 2 2 8 2 L 842 2 Q 848 2 848 8 L 848 32 L 2 32 Z" fill="#021714" stroke="#00FF66" stroke-width="1" stroke-opacity="0.4"/>
@@ -128,96 +130,97 @@
   <circle cx="60" cy="17" r="4.5" fill="#00F0FF" filter="url(#glow-cyan-tel)"/>
 
   <!-- Mainframe Title Text -->
-  <text x="445" y="21" text-anchor="middle" class="tel-hdr">[ MAINFRAME // REAL-TIME PERFORMANCE &amp; COMPUTATION RADAR ]</text>
+  <text x="445" y="21" text-anchor="middle" class="tel-hdr">[ MAINFRAME TELEMETRY // PERFORMANCE &amp; COMPUTATION RADAR ]</text>
 
-  <!-- LEFT COLUMN: CORE ACTIVITY & VELOCITY (x: 25) -->
-  <!-- Box Frame Left -->
-  <rect x="22" y="45" width="385" height="235" rx="6" fill="#010e0c" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.6"/>
-  <text x="35" y="65" class="box-title c-green">▼ [CORE METRICS &amp; ACTIVITY]</text>
+  <!-- ========================================================================= -->
+  <!-- SECTION 1: CORE ACTIVITY & METRIC VELOCITY (Full Width, Spacious Rows)   -->
+  <!-- ========================================================================= -->
+  <rect x="22" y="45" width="806" height="170" rx="6" fill="#010e0c" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.6"/>
+  <text x="35" y="65" class="box-title c-green">▼ [CORE SYSTEM METRICS &amp; ACTIVITY VELOCITY]</text>
 
-  <g transform="translate(35, 95)">
-    <text x="0" y="0" class="tel-txt c-cyan">&gt; TOTAL COMMITS    :</text>
-    <text x="165" y="0" class="tel-val c-green">1,540+ [TOP 1% VELOCITY]</text>
+  <!-- Metric 1: Commits -->
+  <g transform="translate(35, 96)">
+    <text x="0" y="0" class="tel-lbl c-cyan">&gt; TOTAL COMMITS</text>
+    <text x="175" y="0" class="tel-bar c-green">[████████████████████]</text>
+    <text x="380" y="0" class="tel-val">1,540+ COMMITS • TOP 1% GLOBAL SPRINT</text>
   </g>
 
-  <g transform="translate(35, 130)">
-    <text x="0" y="0" class="tel-txt c-cyan">&gt; ACTIVE STREAK    :</text>
-    <text x="165" y="0" class="tel-val c-magenta">90+ DAYS [CONTINUOUS]</text>
+  <!-- Metric 2: Streak -->
+  <g transform="translate(35, 128)">
+    <text x="0" y="0" class="tel-lbl c-cyan">&gt; ACTIVE STREAK</text>
+    <text x="175" y="0" class="tel-bar c-magenta">[████████████████████]</text>
+    <text x="380" y="0" class="tel-val">90+ DAYS CONTINUOUS INTEGRATION (CI/CD)</text>
   </g>
 
-  <g transform="translate(35, 165)">
-    <text x="0" y="0" class="tel-txt c-cyan">&gt; TEST INTEGRITY   :</text>
-    <text x="165" y="0" class="tel-val c-green">189/189 (100% OK)</text>
+  <!-- Metric 3: Tests -->
+  <g transform="translate(35, 160)">
+    <text x="0" y="0" class="tel-lbl c-cyan">&gt; TEST COVERAGE</text>
+    <text x="175" y="0" class="tel-bar c-green">[████████████████████]</text>
+    <text x="380" y="0" class="tel-val">189 / 189 TEST SUITES PASSED (100% RELIABLE)</text>
   </g>
 
-  <g transform="translate(35, 200)">
-    <text x="0" y="0" class="tel-txt c-cyan">&gt; CLOUD SERVERS    :</text>
-    <text x="165" y="0" class="tel-val c-amber">DATABRICKS + AWS + GCP</text>
+  <!-- Metric 4: Defense -->
+  <g transform="translate(35, 192)">
+    <text x="0" y="0" class="tel-lbl c-cyan">&gt; DEFENSE NETWORK</text>
+    <text x="175" y="0" class="tel-bar c-amber">[████████████████████]</text>
+    <text x="380" y="0" class="tel-val">71 MOS • 20 BASE HUBS • 25 DEFENSE PRIMES</text>
   </g>
 
-  <g transform="translate(35, 235)">
-    <text x="0" y="0" class="tel-txt c-cyan">&gt; DEFENSE PIPELINE :</text>
-    <text x="165" y="0" class="tel-val c-green">71 MOS • 20 HUBS • 25 CO</text>
+  <!-- ========================================================================= -->
+  <!-- SECTION 2: CODEBASE TECHNOLOGY SPECTRUM (Full Width, Spacious Rows)      -->
+  <!-- ========================================================================= -->
+  <rect x="22" y="225" width="806" height="165" rx="6" fill="#010e0c" stroke="#00F0FF" stroke-width="1.2" stroke-opacity="0.6"/>
+  <text x="35" y="245" class="box-title c-cyan">▼ [CODEBASE TECHNOLOGY SPECTRUM &amp; DISTRIBUTION]</text>
+
+  <!-- Tech 1: Python -->
+  <g transform="translate(35, 276)">
+    <text x="0" y="0" class="tel-lbl c-white">&gt; PYTHON / FASTAPI</text>
+    <text x="175" y="0" class="tel-bar c-cyan">[████████████████] 48.5%</text>
+    <text x="380" y="0" class="tel-val">CORE ENGINE, ML TENSORS &amp; REST APIS</text>
   </g>
 
-  <g transform="translate(35, 265)">
-    <text x="0" y="0" class="tel-txt c-cyan">&gt; OPERATOR STATUS  :</text>
-    <text x="165" y="0" class="tel-val c-magenta">18Z SPECIAL FORCES (RET)</text>
+  <!-- Tech 2: PySpark -->
+  <g transform="translate(35, 308)">
+    <text x="0" y="0" class="tel-lbl c-white">&gt; PYSPARK / SQL / UC</text>
+    <text x="175" y="0" class="tel-bar c-green">[██████████     ] 28.0%</text>
+    <text x="380" y="0" class="tel-val">LAKEHOUSE, DELTA LAKE &amp; UNITY CATALOG</text>
   </g>
 
-  <!-- RIGHT COLUMN: LANGUAGE & TECH SPECTRUM (x: 440) -->
-  <!-- Box Frame Right -->
-  <rect x="425" y="45" width="400" height="235" rx="6" fill="#010e0c" stroke="#00F0FF" stroke-width="1.2" stroke-opacity="0.6"/>
-  <text x="438" y="65" class="box-title c-cyan">▼ [TECHNOLOGY SPECTRUM / CODEBASE]</text>
-
-  <!-- Python / FastAPI (Cyan) -->
-  <g transform="translate(438, 98)">
-    <text x="0" y="0" class="tel-txt c-white">PYTHON / FASTAPI</text>
-    <text x="180" y="0" class="tel-txt c-cyan">[███████████████] 48.5%</text>
+  <!-- Tech 3: Terraform -->
+  <g transform="translate(35, 340)">
+    <text x="0" y="0" class="tel-lbl c-white">&gt; TERRAFORM / AWS</text>
+    <text x="175" y="0" class="tel-bar c-magenta">[█████          ] 14.5%</text>
+    <text x="380" y="0" class="tel-val">MULTI-CLOUD IAC (AWS, GCP, DATABRICKS)</text>
   </g>
 
-  <!-- PySpark / Databricks / SQL (Green) -->
-  <g transform="translate(438, 138)">
-    <text x="0" y="0" class="tel-txt c-white">PYSPARK / SQL / UC</text>
-    <text x="180" y="0" class="tel-txt c-green">[██████████     ] 28.0%</text>
+  <!-- Tech 4: PowerShell -->
+  <g transform="translate(35, 372)">
+    <text x="0" y="0" class="tel-lbl c-white">&gt; POWERSHELL / BASH</text>
+    <text x="175" y="0" class="tel-bar c-amber">[███            ]  9.0%</text>
+    <text x="380" y="0" class="tel-val">WINDOWS FLEET &amp; LINUX DAEMON AUTOMATION</text>
   </g>
 
-  <!-- Terraform / Cloud IaC (Magenta) -->
-  <g transform="translate(438, 178)">
-    <text x="0" y="0" class="tel-txt c-white">TERRAFORM / AWS</text>
-    <text x="180" y="0" class="tel-txt c-magenta">[█████          ] 14.5%</text>
-  </g>
-
-  <!-- PowerShell / Automation (Amber) -->
-  <g transform="translate(438, 218)">
-    <text x="0" y="0" class="tel-txt c-white">POWERSHELL / BASH</text>
-    <text x="180" y="0" class="tel-txt c-amber">[███            ]  9.0%</text>
-  </g>
-
-  <!-- Deployment Target Status -->
-  <g transform="translate(438, 258)">
-    <text x="0" y="0" class="tel-txt c-cyan">&gt;&gt; HOSTING: AWS DATABRICKS APPS • CLOUDFLARE • STREAMLIT</text>
-  </g>
-
-  <!-- BOTTOM ACTIVITY SPECTRUM WAVEFORM (y: 295 - 365) -->
-  <rect x="22" y="290" width="803" height="75" rx="6" fill="#010a08" stroke="url(#neon-border-tel)" stroke-width="1.2"/>
+  <!-- ========================================================================= -->
+  <!-- SECTION 3: OSCILLOSCOPE ACTIVITY RADAR WAVEFORM                           -->
+  <!-- ========================================================================= -->
+  <rect x="22" y="400" width="806" height="75" rx="6" fill="#010a08" stroke="url(#neon-border-tel)" stroke-width="1.2"/>
   
   <!-- Waveform Grid Lines -->
-  <line x1="22" y1="327" x2="825" y2="327" stroke="#00FF66" stroke-opacity="0.15" stroke-dasharray="4,4"/>
-  <line x1="22" y1="308" x2="825" y2="308" stroke="#00F0FF" stroke-opacity="0.15" stroke-dasharray="4,4"/>
-  <line x1="22" y1="346" x2="825" y2="346" stroke="#FF007F" stroke-opacity="0.15" stroke-dasharray="4,4"/>
+  <line x1="22" y1="437" x2="828" y2="437" stroke="#00FF66" stroke-opacity="0.15" stroke-dasharray="4,4"/>
+  <line x1="22" y1="418" x2="828" y2="418" stroke="#00F0FF" stroke-opacity="0.15" stroke-dasharray="4,4"/>
+  <line x1="22" y1="456" x2="828" y2="456" stroke="#FF007F" stroke-opacity="0.15" stroke-dasharray="4,4"/>
 
   <!-- Waveform Graph Path (Glowing Multi-Color Neon Activity Line) -->
-  <path d="M 35 348 Q 75 305 115 330 T 195 300 T 275 340 T 355 298 T 435 335 T 515 302 T 595 342 T 675 296 T 755 330 L 810 305" 
+  <path d="M 35 458 Q 75 415 115 440 T 195 410 T 275 450 T 355 408 T 435 445 T 515 412 T 595 452 T 675 406 T 755 440 L 810 415" 
         fill="none" stroke="url(#wave-grad)" stroke-width="2.8" filter="url(#glow-green-tel)"/>
 
   <!-- Waveform Data Points (Pulsing Nodes) -->
-  <circle cx="115" cy="330" r="3.5" fill="#00FF66" filter="url(#glow-green-tel)"/>
-  <circle cx="195" cy="300" r="3.5" fill="#00F0FF" filter="url(#glow-cyan-tel)"/>
-  <circle cx="355" cy="298" r="4.5" fill="#FF007F" filter="url(#glow-magenta-tel)"/>
-  <circle cx="515" cy="302" r="3.5" fill="#00FF66" filter="url(#glow-green-tel)"/>
-  <circle cx="675" cy="296" r="4.5" fill="#FFD700" filter="url(#glow-amber-tel)"/>
+  <circle cx="115" cy="440" r="3.5" fill="#00FF66" filter="url(#glow-green-tel)"/>
+  <circle cx="195" cy="410" r="3.5" fill="#00F0FF" filter="url(#glow-cyan-tel)"/>
+  <circle cx="355" cy="408" r="4.5" fill="#FF007F" filter="url(#glow-magenta-tel)"/>
+  <circle cx="515" cy="412" r="3.5" fill="#00FF66" filter="url(#glow-green-tel)"/>
+  <circle cx="675" cy="406" r="4.5" fill="#FFD700" filter="url(#glow-amber-tel)"/>
 
-  <text x="35" y="306" class="box-title c-green">▼ [REAL-TIME ACTIVITY FREQUENCY WAVEFORM]</text>
-  <text x="815" y="360" text-anchor="end" class="tel-txt c-cyan">2026 CONTINUOUS SPRINT • 100% UPTIME</text>
+  <text x="35" y="416" class="box-title c-green">▼ [REAL-TIME ACTIVITY FREQUENCY OSCILLOSCOPE]</text>
+  <text x="815" y="468" text-anchor="end" class="tel-lbl c-cyan">2026 CONTINUOUS SPRINT • 100% CLOUD UPTIME</text>
 </svg>
