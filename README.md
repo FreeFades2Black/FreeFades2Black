@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&weight=700&size=42&pause=1200&color=00FF9D&center=true&vCenter=true&width=900&height=120&lines=%3E+_WILLIAM+FREE+HALL;%3E+_SOLUTIONS+ARCHITECT+%2B+CLOUD+DATA+ENGINEER;%3E+_18Z+%2F+18F+US+ARMY+SPECIAL+FORCES+%28RET%29;%3E+_SYSTEM+ONLINE+%2F%2F+7+EAGLE+GROUP+PARTNER" alt="Retro Terminal Typist Banner" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/terminal_banner.svg" width="100%" alt="Retro Cyberpunk Terminal Banner" />
 </p>
 
 # Solutions Architect & Cloud/Data Engineer | Special Operations Veteran
