@@ -72,5 +72,13 @@ C:\COMMAND_NET> DIR /W
 ## 📊 Performance Telemetry & Output Metrics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_dashboard.svg" width="100%" alt="1980s Glowing Performance Telemetry Dashboard" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_metrics.svg" width="100%" alt="Panel 01: Core Metrics & Velocity" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_spectrum.svg" width="100%" alt="Panel 02: Codebase Technology Spectrum" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_oscilloscope.svg" width="100%" alt="Panel 03: Real-Time Oscilloscope Waveform" />
 </p>

@@ -1,0 +1,127 @@
+<svg width="850" height="210" viewBox="0 0 850 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Phosphor Neon Glow Filter -->
+    <filter id="m-glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="m-glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="m-glow-magenta" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="m-glow-amber" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline Pattern -->
+    <pattern id="m-scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#00FF66" stroke-opacity="0.04" stroke-width="1.2" />
+    </pattern>
+
+    <!-- Background Chassis Gradient -->
+    <linearGradient id="m-chassis-grad" x1="0" y1="0" x2="850" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020a06"/>
+      <stop offset="50%" stop-color="#04140b"/>
+      <stop offset="100%" stop-color="#010804"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;display=swap');
+
+    .hdr-title {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 11px;
+      fill: #00FF66;
+      letter-spacing: 1px;
+      filter: url(#m-glow-green);
+    }
+
+    .tel-lbl {
+      font-family: 'VT323', monospace;
+      font-size: 20px;
+      letter-spacing: 1.2px;
+    }
+
+    .tel-bar {
+      font-family: 'VT323', monospace;
+      font-size: 20px;
+      letter-spacing: 1.2px;
+    }
+
+    .tel-val {
+      font-family: 'VT323', monospace;
+      font-size: 19px;
+      fill: #E2E8F0;
+      letter-spacing: 0.9px;
+    }
+
+    .c-green { fill: #00FF66; filter: url(#m-glow-green); }
+    .c-cyan { fill: #00F0FF; filter: url(#m-glow-cyan); }
+    .c-magenta { fill: #FF007F; filter: url(#m-glow-magenta); }
+    .c-amber { fill: #FFD700; filter: url(#m-glow-amber); }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect x="2" y="2" width="846" height="206" rx="8" fill="url(#m-chassis-grad)" stroke="#00FF66" stroke-width="2" filter="url(#m-glow-green)"/>
+  <rect x="2" y="2" width="846" height="206" rx="8" fill="url(#m-scanlines)"/>
+
+  <!-- Title Header Bar -->
+  <path d="M 2 8 Q 2 2 8 2 L 842 2 Q 848 2 848 8 L 848 30 L 2 30 Z" fill="#031f0f" stroke="#00FF66" stroke-width="1" stroke-opacity="0.4"/>
+  <line x1="2" y1="30" x2="848" y2="30" stroke="#00FF66" stroke-width="1.5"/>
+
+  <!-- Status LEDs -->
+  <circle cx="16" cy="16" r="4" fill="#FF0055"/>
+  <circle cx="28" cy="16" r="4" fill="#FFD700"/>
+  <circle cx="40" cy="16" r="4" fill="#00FF66" filter="url(#m-glow-green)"/>
+
+  <text x="425" y="20" text-anchor="middle" class="hdr-title">[ PANEL 01: CORE SYSTEM METRICS &amp; VELOCITY ]</text>
+
+  <!-- Metric 1: Commits -->
+  <g transform="translate(35, 66)">
+    <text x="0" y="0" class="tel-lbl c-cyan">&gt; TOTAL COMMITS</text>
+    <text x="180" y="0" class="tel-bar c-green">[████████████████████]</text>
+    <text x="390" y="0" class="tel-val">1,540+ COMMITS • TOP 1% GLOBAL VELOCITY</text>
+  </g>
+
+  <!-- Metric 2: Streak -->
+  <g transform="translate(35, 102)">
+    <text x="0" y="0" class="tel-lbl c-cyan">&gt; ACTIVE STREAK</text>
+    <text x="180" y="0" class="tel-bar c-magenta">[████████████████████]</text>
+    <text x="390" y="0" class="tel-val">90+ DAYS CONTINUOUS INTEGRATION (CI/CD)</text>
+  </g>
+
+  <!-- Metric 3: Tests -->
+  <g transform="translate(35, 138)">
+    <text x="0" y="0" class="tel-lbl c-cyan">&gt; TEST COVERAGE</text>
+    <text x="180" y="0" class="tel-bar c-green">[████████████████████]</text>
+    <text x="390" y="0" class="tel-val">189 / 189 TEST SUITES PASSED (100% RELIABLE)</text>
+  </g>
+
+  <!-- Metric 4: Defense Network -->
+  <g transform="translate(35, 174)">
+    <text x="0" y="0" class="tel-lbl c-cyan">&gt; DEFENSE NETWORK</text>
+    <text x="180" y="0" class="tel-bar c-amber">[████████████████████]</text>
+    <text x="390" y="0" class="tel-val">71 MOS • 20 BASE HUBS • 25 DEFENSE PRIMES</text>
+  </g>
+</svg>
