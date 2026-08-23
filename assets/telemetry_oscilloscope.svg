@@ -1,36 +1,45 @@
-<svg width="850" height="235" viewBox="0 0 850 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="380" viewBox="0 0 850 380" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Phosphor Neon Glow Filter -->
+    <!-- Multi-Color Neon Phosphor Glow Filters -->
     <filter id="o-glow-multi" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
       <feMerge>
+        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <filter id="o-glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Scanline Pattern -->
+    <filter id="o-glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline Pattern for CRT Screen -->
     <pattern id="o-scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
       <line x1="0" y1="0" x2="100" y2="0" stroke="#00FF66" stroke-opacity="0.04" stroke-width="1.2" />
     </pattern>
 
     <!-- Background Chassis Gradient -->
-    <linearGradient id="o-chassis-grad" x1="0" y1="0" x2="850" y2="235" gradientUnits="userSpaceOnUse">
+    <linearGradient id="o-chassis-grad" x1="0" y1="0" x2="850" y2="380" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#02080a"/>
-      <stop offset="50%" stop-color="#051016"/>
+      <stop offset="50%" stop-color="#041218"/>
       <stop offset="100%" stop-color="#010608"/>
     </linearGradient>
 
-    <!-- Glowing Cyber Border Gradient -->
-    <linearGradient id="o-border-grad" x1="0" y1="0" x2="850" y2="235" gradientUnits="userSpaceOnUse">
+    <!-- Glowing Cyber Outer Border Gradient -->
+    <linearGradient id="o-border-grad" x1="0" y1="0" x2="850" y2="380" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#00F0FF"/>
       <stop offset="35%" stop-color="#00FF66"/>
       <stop offset="70%" stop-color="#FF007F"/>
@@ -40,8 +49,9 @@
     <!-- Waveform Path Gradient -->
     <linearGradient id="o-wave-grad" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#00FF66"/>
-      <stop offset="50%" stop-color="#00F0FF"/>
-      <stop offset="100%" stop-color="#FF007F"/>
+      <stop offset="40%" stop-color="#00F0FF"/>
+      <stop offset="75%" stop-color="#FF007F"/>
+      <stop offset="100%" stop-color="#FFD700"/>
     </linearGradient>
   </defs>
 
@@ -63,61 +73,116 @@
       letter-spacing: 0.8px;
     }
 
-    .tel-lbl {
+    .axis-lbl {
       font-family: 'VT323', monospace;
-      font-size: 19px;
-      letter-spacing: 1px;
+      font-size: 14px;
+      fill: #00F0FF;
+      opacity: 0.7;
     }
 
-    .c-green { fill: #00FF66; filter: url(#o-glow-multi); }
+    .node-tag {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 8px;
+      fill: #FFFFFF;
+      letter-spacing: 0.5px;
+    }
+
+    .tel-footer {
+      font-family: 'VT323', monospace;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+    }
+
+    .c-green { fill: #00FF66; filter: url(#o-glow-green); }
     .c-cyan { fill: #00F0FF; filter: url(#o-glow-cyan); }
     .c-magenta { fill: #FF007F; }
     .c-amber { fill: #FFD700; }
   </style>
 
-  <!-- Outer Frame -->
-  <rect x="2" y="2" width="846" height="231" rx="8" fill="url(#o-chassis-grad)" stroke="url(#o-border-grad)" stroke-width="2"/>
-  <rect x="2" y="2" width="846" height="231" rx="8" fill="url(#o-scanlines)"/>
+  <!-- Giant Outer Chassis Frame -->
+  <rect x="2" y="2" width="846" height="376" rx="8" fill="url(#o-chassis-grad)" stroke="url(#o-border-grad)" stroke-width="2.2"/>
+  <rect x="2" y="2" width="846" height="376" rx="8" fill="url(#o-scanlines)"/>
 
   <!-- Title Header Bar -->
-  <path d="M 2 8 Q 2 2 8 2 L 842 2 Q 848 2 848 8 L 848 30 L 2 30 Z" fill="#011718" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-  <line x1="2" y1="30" x2="848" y2="30" stroke="url(#o-border-grad)" stroke-width="1.5"/>
+  <path d="M 2 8 Q 2 2 8 2 L 842 2 Q 848 2 848 8 L 848 32 L 2 32 Z" fill="#011718" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="2" y1="32" x2="848" y2="32" stroke="url(#o-border-grad)" stroke-width="1.6"/>
 
-  <!-- Status LEDs -->
-  <circle cx="16" cy="16" r="4" fill="#FF0055"/>
-  <circle cx="28" cy="16" r="4" fill="#FFD700"/>
-  <circle cx="40" cy="16" r="4" fill="#00FF66" filter="url(#o-glow-multi)"/>
+  <!-- Vintage Status LEDs -->
+  <circle cx="16" cy="17" r="4.5" fill="#FF0055"/>
+  <circle cx="30" cy="17" r="4.5" fill="#FFD700"/>
+  <circle cx="44" cy="17" r="4.5" fill="#00FF66" filter="url(#o-glow-green)"/>
+  <circle cx="58" cy="17" r="4.5" fill="#00F0FF" filter="url(#o-glow-cyan)"/>
 
-  <text x="425" y="20" text-anchor="middle" class="hdr-title">[ PANEL 03: REAL-TIME ACTIVITY FREQUENCY OSCILLOSCOPE ]</text>
+  <text x="445" y="21" text-anchor="middle" class="hdr-title">[ PANEL 03: REAL-TIME ACTIVITY FREQUENCY OSCILLOSCOPE ]</text>
 
-  <!-- Oscilloscope Screen Inset -->
-  <rect x="20" y="44" width="810" height="175" rx="6" fill="#010e0c" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.5"/>
+  <!-- Large Oscilloscope CRT Screen Viewport (Massive Vertical Space) -->
+  <rect x="18" y="44" width="814" height="318" rx="6" fill="#010d0a" stroke="#00FF66" stroke-width="1.4" stroke-opacity="0.6"/>
   
-  <text x="35" y="65" class="box-sub">▼ [ACTIVITY OSCILLOGRAM // FREQUENCY: 1.54K COMMITS SPRINT]</text>
+  <!-- Sub-Header Signal Status Row -->
+  <text x="32" y="65" class="box-sub">▼ [SIGNAL RADAR // VELOCITY: 1,540+ COMMITS // 100% CLOUD UPTIME]</text>
+  <text x="815" y="65" text-anchor="end" class="box-sub c-green">[ACTIVE SWEEP: 60Hz]</text>
 
-  <!-- Oscilloscope Grid Lines (Spacious & Clean) -->
-  <line x1="20" y1="95" x2="830" y2="95" stroke="#00F0FF" stroke-opacity="0.14" stroke-dasharray="4,4"/>
-  <line x1="20" y1="130" x2="830" y2="130" stroke="#00FF66" stroke-opacity="0.2" stroke-dasharray="4,4"/>
-  <line x1="20" y1="165" x2="830" y2="165" stroke="#FF007F" stroke-opacity="0.14" stroke-dasharray="4,4"/>
+  <!-- Oscilloscope Background Graticule Grid (Full Height Display) -->
+  <line x1="50" y1="100" x2="818" y2="100" stroke="#00F0FF" stroke-opacity="0.12" stroke-dasharray="4,4"/>
+  <line x1="50" y1="145" x2="818" y2="145" stroke="#00FF66" stroke-opacity="0.16" stroke-dasharray="4,4"/>
+  <line x1="50" y1="190" x2="818" y2="190" stroke="#00FF66" stroke-opacity="0.30" stroke-dasharray="2,2"/>
+  <line x1="50" y1="235" x2="818" y2="235" stroke="#00FF66" stroke-opacity="0.16" stroke-dasharray="4,4"/>
+  <line x1="50" y1="280" x2="818" y2="280" stroke="#FF007F" stroke-opacity="0.12" stroke-dasharray="4,4"/>
 
-  <!-- Vertical Grid Hash Marks -->
-  <line x1="170" y1="44" x2="170" y2="219" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
-  <line x1="335" y1="44" x2="335" y2="219" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
-  <line x1="500" y1="44" x2="500" y2="219" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
-  <line x1="665" y1="44" x2="665" y2="219" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
+  <!-- Y-Axis Decibel / Amplitude Markings -->
+  <text x="32" y="104" class="axis-lbl">+12dB</text>
+  <text x="32" y="149" class="axis-lbl">+6dB</text>
+  <text x="32" y="194" class="axis-lbl"> 0dB</text>
+  <text x="32" y="239" class="axis-lbl">-6dB</text>
+  <text x="32" y="284" class="axis-lbl">-12dB</text>
 
-  <!-- Oscilloscope Waveform Graph Path (Full Amplitude, Spacious Wave) -->
-  <path d="M 35 168 Q 75 88 115 130 T 195 82 T 275 162 T 355 78 T 435 142 T 515 85 T 595 158 T 675 75 T 755 135 L 815 95" 
-        fill="none" stroke="url(#o-wave-grad)" stroke-width="3.2" filter="url(#o-glow-multi)"/>
+  <!-- Vertical Graticule Lines -->
+  <line x1="165" y1="75" x2="165" y2="305" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
+  <line x1="300" y1="75" x2="300" y2="305" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
+  <line x1="435" y1="75" x2="435" y2="305" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
+  <line x1="570" y1="75" x2="570" y2="305" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
+  <line x1="705" y1="75" x2="705" y2="305" stroke="#00FF66" stroke-opacity="0.08" stroke-dasharray="2,4"/>
 
-  <!-- Pulsing Waveform Data Nodes -->
-  <circle cx="115" cy="130" r="4.5" fill="#00FF66" filter="url(#o-glow-multi)"/>
-  <circle cx="195" cy="82" r="4.5" fill="#00F0FF" filter="url(#o-glow-cyan)"/>
-  <circle cx="355" cy="78" r="5.5" fill="#FF007F"/>
-  <circle cx="515" cy="85" r="4.5" fill="#00FF66" filter="url(#o-glow-multi)"/>
-  <circle cx="675" cy="75" r="5.5" fill="#FFD700"/>
+  <!-- Secondary Carrier Wave (Subtle Background Heartbeat Pulse) -->
+  <path d="M 50 190 Q 75 165 100 190 T 150 190 T 200 190 T 250 190 T 300 190 T 350 190 T 400 190 T 450 190 T 500 190 T 550 190 T 600 190 T 650 190 T 700 190 T 750 190 T 800 190" 
+        fill="none" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="1.5"/>
 
-  <!-- Oscilloscope Telemetry Footer -->
-  <text x="35" y="206" class="tel-lbl c-cyan">&gt;&gt; SIGNAL: 100% UPTIME • 189/189 SUITES PASSING</text>
-  <text x="815" y="206" text-anchor="end" class="tel-lbl c-green">2026 CONTINUOUS SPRINT ACTIVE &gt;&gt;</text>
+  <!-- Giant Primary Oscilloscope Waveform (Full Dramatic Amplitude) -->
+  <path d="M 50 245 Q 100 95 155 175 T 270 90 T 385 270 T 500 85 T 615 260 T 730 80 L 805 185" 
+        fill="none" stroke="url(#o-wave-grad)" stroke-width="3.8" filter="url(#o-glow-multi)"/>
+
+  <!-- Pulsing Waveform Data Nodes with Labels -->
+  <!-- Node 1 -->
+  <circle cx="155" cy="175" r="5" fill="#00FF66" filter="url(#o-glow-multi)"/>
+  <rect x="115" y="145" width="80" height="18" rx="3" fill="#021f14" stroke="#00FF66" stroke-width="1"/>
+  <text x="155" y="157" text-anchor="middle" class="node-tag c-green">1.54K SPRINT</text>
+
+  <!-- Node 2 -->
+  <circle cx="270" cy="90" r="5.5" fill="#00F0FF" filter="url(#o-glow-cyan)"/>
+  <rect x="235" y="66" width="70" height="18" rx="3" fill="#011f26" stroke="#00F0FF" stroke-width="1"/>
+  <text x="270" y="78" text-anchor="middle" class="node-tag c-cyan">90D STREAK</text>
+
+  <!-- Node 3 -->
+  <circle cx="500" cy="85" r="6" fill="#FF007F"/>
+  <rect x="460" y="60" width="80" height="18" rx="3" fill="#260014" stroke="#FF007F" stroke-width="1"/>
+  <text x="500" y="72" text-anchor="middle" class="node-tag c-magenta">189/189 OK</text>
+
+  <!-- Node 4 -->
+  <circle cx="615" cy="260" r="5" fill="#00FF66" filter="url(#o-glow-green)"/>
+
+  <!-- Node 5 -->
+  <circle cx="730" cy="80" r="6" fill="#FFD700"/>
+  <rect x="690" y="55" width="80" height="18" rx="3" fill="#241b00" stroke="#FFD700" stroke-width="1"/>
+  <text x="730" y="67" text-anchor="middle" class="node-tag c-amber">MULTI-CLOUD</text>
+
+  <!-- Dedicated Glowing Telemetry Footer Bar Inset -->
+  <rect x="28" y="318" width="794" height="36" rx="5" fill="#021c16" stroke="url(#o-border-grad)" stroke-width="1.4"/>
+  
+  <circle cx="45" cy="336" r="5" fill="#00FF66" filter="url(#o-glow-multi)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <text x="60" y="343" class="tel-footer c-green">[TELEMETRY ONLINE]</text>
+  <text x="810" y="343" text-anchor="end" class="tel-footer c-cyan">2026 CONTINUOUS SPRINT • 100% CLOUD UPTIME</text>
 </svg>
