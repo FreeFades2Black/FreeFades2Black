@@ -1,8 +1,8 @@
-<svg width="850" height="235" viewBox="0 0 850 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="230" viewBox="0 0 850 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Phosphor CRT Neon Glow Filter -->
+    <!-- 1980s Phosphor CRT Green Glow Filter -->
     <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="1.8" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="coloredBlur"/>
@@ -10,60 +10,60 @@
       </feMerge>
     </filter>
 
-    <!-- Scanline Pattern for CRT Screen -->
+    <!-- 1980s CRT Horizontal Scanlines Overlay -->
     <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="100" y2="0" stroke="#00FF66" stroke-opacity="0.04" stroke-width="1.5" />
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#00FF66" stroke-opacity="0.05" stroke-width="1.5" />
     </pattern>
 
-    <!-- Terminal Background Gradient -->
-    <linearGradient id="terminal-grad" x1="0" y1="0" x2="850" y2="235" gradientUnits="userSpaceOnUse">
+    <!-- Retro Terminal Obsidian Chassis Gradient -->
+    <linearGradient id="terminal-grad" x1="0" y1="0" x2="850" y2="230" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#020804"/>
-      <stop offset="50%" stop-color="#041208"/>
+      <stop offset="50%" stop-color="#031206"/>
       <stop offset="100%" stop-color="#010603"/>
     </linearGradient>
 
-    <!-- Clip Paths for Staggered Typewriter Effect -->
+    <!-- Staggered Typewriter Clip Paths (Compact 1980s Font Scaling) -->
     <clipPath id="clip-line1">
-      <rect x="30" y="48" width="0" height="32">
+      <rect x="30" y="44" width="0" height="28">
         <animate attributeName="width" values="0;0;790;790;790;0" keyTimes="0;0.02;0.18;0.92;0.98;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
 
     <clipPath id="clip-line2">
-      <rect x="30" y="86" width="0" height="32">
+      <rect x="30" y="80" width="0" height="28">
         <animate attributeName="width" values="0;0;790;790;790;0" keyTimes="0;0.22;0.38;0.92;0.98;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
 
     <clipPath id="clip-line3">
-      <rect x="30" y="124" width="0" height="32">
+      <rect x="30" y="116" width="0" height="28">
         <animate attributeName="width" values="0;0;790;790;790;0" keyTimes="0;0.42;0.58;0.92;0.98;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
 
     <clipPath id="clip-line4">
-      <rect x="30" y="162" width="0" height="32">
+      <rect x="30" y="152" width="0" height="28">
         <animate attributeName="width" values="0;0;790;790;790;0" keyTimes="0;0.62;0.78;0.92;0.98;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
   </defs>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=VT323&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;display=swap');
 
     .term-title {
-      font-family: 'VT323', 'Courier New', monospace;
-      font-size: 15px;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 10px;
       fill: #00FF9D;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
     }
 
     .term-text {
-      font-family: 'VT323', 'Courier New', monospace;
-      font-size: 21px;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 12.5px;
       fill: #00FF66;
       filter: url(#neon-glow);
-      letter-spacing: 1.2px;
+      letter-spacing: 0.8px;
     }
 
     .cursor {
@@ -72,47 +72,47 @@
     }
   </style>
 
-  <!-- Terminal Window Frame -->
-  <rect x="2" y="2" width="846" height="231" rx="8" fill="url(#terminal-grad)" stroke="#00FF66" stroke-width="1.6" stroke-opacity="0.85" filter="url(#neon-glow)"/>
+  <!-- 1980s Retro CRT Monitor Outer Frame -->
+  <rect x="2" y="2" width="846" height="226" rx="6" fill="url(#terminal-grad)" stroke="#00FF66" stroke-width="1.8" stroke-opacity="0.85" filter="url(#neon-glow)"/>
   
-  <!-- CRT Scanlines Overlay -->
-  <rect x="2" y="2" width="846" height="231" rx="8" fill="url(#scanlines)" />
+  <!-- CRT Scanlines Texture -->
+  <rect x="2" y="2" width="846" height="226" rx="6" fill="url(#scanlines)" />
 
-  <!-- Terminal Window Titlebar -->
-  <path d="M 2 10 Q 2 2 10 2 L 840 2 Q 848 2 848 10 L 848 30 L 2 30 Z" fill="#031a0b" stroke="#00FF66" stroke-width="1" stroke-opacity="0.4"/>
-  <line x1="2" y1="30" x2="848" y2="30" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.7"/>
+  <!-- 1980s CRT Title Header -->
+  <path d="M 2 8 Q 2 2 8 2 L 842 2 Q 848 2 848 8 L 848 28 L 2 28 Z" fill="#021a08" stroke="#00FF66" stroke-width="1" stroke-opacity="0.4"/>
+  <line x1="2" y1="28" x2="848" y2="28" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.7"/>
 
-  <!-- Window Control Buttons (Phosphor Retro Dots) -->
-  <circle cx="18" cy="16" r="4.5" fill="#FF5F56" />
-  <circle cx="32" cy="16" r="4.5" fill="#FFBD2E" />
-  <circle cx="46" cy="16" r="4.5" fill="#27C93F" />
+  <!-- Vintage CRT Status LEDs -->
+  <circle cx="16" cy="15" r="4" fill="#FF5F56" />
+  <circle cx="28" cy="15" r="4" fill="#FFBD2E" />
+  <circle cx="40" cy="15" r="4" fill="#27C93F" />
 
-  <!-- Titlebar Text -->
-  <text x="425" y="20" text-anchor="middle" class="term-title">[ ROOT@GUNSLINGER-19 // SPECIAL FORCES COMMAND INTERFACE ]</text>
+  <!-- CRT Window Title -->
+  <text x="425" y="18" text-anchor="middle" class="term-title">[ GUNSLINGER-19 // 1980s RETRO CRT COMMAND INTERFACE ]</text>
 
-  <!-- Staggered Multi-Line Typewriter Text (Adjusted Size for 100% Full Visibility) -->
+  <!-- 1980s Staggered Multi-Line Terminal Output -->
   <!-- Line 1 -->
   <g clip-path="url(#clip-line1)">
-    <text x="35" y="70" class="term-text">&gt; WILLIAM FREE HALL [OPERATOR // 18Z SPECIAL FORCES]</text>
+    <text x="35" y="64" class="term-text">&gt; C:\&gt; LOAD "OPERATOR_18Z.BIN",8,1 ... [READY]</text>
   </g>
 
   <!-- Line 2 -->
   <g clip-path="url(#clip-line2)">
-    <text x="35" y="108" class="term-text">&gt; SOLUTIONS ARCHITECT • CLOUD &amp; DATA PLATFORM ENGINEER</text>
+    <text x="35" y="100" class="term-text">&gt; WILLIAM FREE HALL • SOLUTIONS ARCHITECT</text>
   </g>
 
   <!-- Line 3 -->
   <g clip-path="url(#clip-line3)">
-    <text x="35" y="146" class="term-text">&gt; US ARMY SPECIAL OPERATIONS (RET) • 7 EAGLE GROUP PARTNER</text>
+    <text x="35" y="136" class="term-text">&gt; US ARMY SPECIAL FORCES (RET) • 7 EAGLE GROUP</text>
   </g>
 
   <!-- Line 4 -->
   <g clip-path="url(#clip-line4)">
-    <text x="35" y="184" class="term-text">&gt; [SYSTEM ONLINE] 189/189 TESTS PASSING • MULTI-CLOUD READY</text>
+    <text x="35" y="172" class="term-text">&gt; [SYS ONLINE] 189/189 TESTS OK • CLOUD &amp; DATA</text>
   </g>
 
-  <!-- Blinking Cursor -->
-  <rect x="625" y="168" width="10" height="20" class="cursor">
+  <!-- 1980s Blinking Terminal Cursor -->
+  <rect x="660" y="158" width="10" height="15" class="cursor">
     <animate attributeName="opacity" values="1;0;1" dur="0.75s" repeatCount="indefinite"/>
   </rect>
 </svg>
