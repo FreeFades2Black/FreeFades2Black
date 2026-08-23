@@ -72,11 +72,5 @@ C:\COMMAND_NET> DIR /W
 ## 📊 Performance Telemetry & Output Metrics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FreeFades2Black&theme=tokyonight" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=FreeFades2Black&theme=tokyonight" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=FreeFades2Black&theme=tokyonight&hide_border=true" width="49%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FreeFades2Black&theme=tokyo-night&hide_border=true" width="49%" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_dashboard.svg" width="100%" alt="1980s Glowing Performance Telemetry Dashboard" />
 </p>
