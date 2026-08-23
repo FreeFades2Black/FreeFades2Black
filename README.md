@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF66,100:003311&height=220&section=header&text=WILLIAM%20FREE%20HALL&fontSize=38&fontColor=00FF66&animation=fadeIn&fontAlignY=38&desc=SOLUTIONS%20ARCHITECT%20%7C%20CLOUD%20AND%20DATA%20ENGINEER&descSize=18&descColor=00FF66" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020806,30:002816,70:00ff9d,100:00f0ff&height=240&section=header&text=WILLIAM%20FREE%20HALL&fontSize=42&fontColor=00FF9D&animation=twinkling&fontAlignY=36&desc=%5B%2018Z%20SPECIAL%20FORCES%20%5D%20%E2%80%A2%20SOLUTIONS%20ARCHITECT%20%E2%80%A2%20CLOUD%20%2B%20DATA%20OPS&descSize=16&descColor=00F0FF" width="100%" alt="Cyberpunk Header Banner" />
 </p>
 
 # Solutions Architect & Cloud/Data Engineer | Special Operations Veteran
 ### 18Z / 18F, US Army Special Forces (Ret.) | Partner: 7 Eagle Group
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=FreeFades2Black&color=00FF66&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/COMMITS-1.5K+-brightgreen?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/TESTS-189_PASSED-success?style=flat-square&logo=pytest" alt="Tests Passed" />
+  <img src="https://komarev.com/ghpvc/?username=FreeFades2Black&color=00FF9D&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/COMMITS-1.5K+-00FF9D?style=flat-square&logo=git&logoColor=black" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/TESTS-189_PASSED-00F0FF?style=flat-square&logo=pytest&logoColor=black" alt="Tests Passed" />
 </p>
 
 ---
