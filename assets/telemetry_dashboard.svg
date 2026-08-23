@@ -117,7 +117,7 @@
     }
   </style>
 
-  <!-- 1980s Glowing Mainframe Outer Frame -->
+  <!-- Glowing Mainframe Outer Frame -->
   <rect x="2" y="2" width="846" height="631" rx="8" fill="url(#chassis-grad-tel)" stroke="url(#neon-border-tel)" stroke-width="2" class="pulse-box"/>
   
   <!-- CRT Scanlines -->

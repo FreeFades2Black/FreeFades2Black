@@ -1,6 +1,6 @@
 <svg width="850" height="230" viewBox="0 0 850 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 1980s Phosphor CRT Green Glow Filter -->
+    <!-- Phosphor CRT Green Glow Filter -->
     <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="1.8" result="coloredBlur"/>
       <feMerge>
@@ -10,19 +10,19 @@
       </feMerge>
     </filter>
 
-    <!-- 1980s CRT Horizontal Scanlines Overlay -->
+    <!-- CRT Horizontal Scanlines Overlay -->
     <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
       <line x1="0" y1="0" x2="100" y2="0" stroke="#00FF66" stroke-opacity="0.05" stroke-width="1.5" />
     </pattern>
 
-    <!-- Retro Terminal Obsidian Chassis Gradient -->
+    <!-- Terminal Obsidian Chassis Gradient -->
     <linearGradient id="terminal-grad" x1="0" y1="0" x2="850" y2="230" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#020804"/>
       <stop offset="50%" stop-color="#031206"/>
       <stop offset="100%" stop-color="#010603"/>
     </linearGradient>
 
-    <!-- Staggered Typewriter Clip Paths (Compact 1980s Font Scaling) -->
+    <!-- Staggered Typewriter Clip Paths (Compact Font Scaling) -->
     <clipPath id="clip-line1">
       <rect x="30" y="44" width="0" height="28">
         <animate attributeName="width" values="0;0;790;790;790;0" keyTimes="0;0.02;0.18;0.92;0.98;1" dur="12s" repeatCount="indefinite"/>
@@ -72,13 +72,13 @@
     }
   </style>
 
-  <!-- 1980s Retro CRT Monitor Outer Frame -->
+  <!-- CRT Monitor Outer Frame -->
   <rect x="2" y="2" width="846" height="226" rx="6" fill="url(#terminal-grad)" stroke="#00FF66" stroke-width="1.8" stroke-opacity="0.85" filter="url(#neon-glow)"/>
   
   <!-- CRT Scanlines Texture -->
   <rect x="2" y="2" width="846" height="226" rx="6" fill="url(#scanlines)" />
 
-  <!-- 1980s CRT Title Header -->
+  <!-- CRT Title Header -->
   <path d="M 2 8 Q 2 2 8 2 L 842 2 Q 848 2 848 8 L 848 28 L 2 28 Z" fill="#021a08" stroke="#00FF66" stroke-width="1" stroke-opacity="0.4"/>
   <line x1="2" y1="28" x2="848" y2="28" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.7"/>
 
@@ -88,9 +88,9 @@
   <circle cx="40" cy="15" r="4" fill="#27C93F" />
 
   <!-- CRT Window Title -->
-  <text x="425" y="18" text-anchor="middle" class="term-title">[ GUNSLINGER-19 // 1980s RETRO CRT COMMAND INTERFACE ]</text>
+  <text x="425" y="18" text-anchor="middle" class="term-title">[ GUNSLINGER-19 // SPECIAL FORCES COMMAND INTERFACE ]</text>
 
-  <!-- 1980s Staggered Multi-Line Terminal Output -->
+  <!-- Staggered Multi-Line Terminal Output -->
   <!-- Line 1 -->
   <g clip-path="url(#clip-line1)">
     <text x="35" y="64" class="term-text">&gt; C:\&gt; LOAD "OPERATOR_18Z.BIN",8,1 ... [READY]</text>
@@ -111,7 +111,7 @@
     <text x="35" y="172" class="term-text">&gt; [SYS ONLINE] 189/189 TESTS OK • CLOUD &amp; DATA</text>
   </g>
 
-  <!-- 1980s Blinking Terminal Cursor -->
+  <!-- Blinking Terminal Cursor -->
   <rect x="660" y="158" width="10" height="15" class="cursor">
     <animate attributeName="opacity" values="1;0;1" dur="0.75s" repeatCount="indefinite"/>
   </rect>

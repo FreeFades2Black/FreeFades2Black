@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/terminal_banner.svg" width="100%" alt="Retro Cyberpunk Terminal Banner" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/terminal_banner.svg" width="100%" alt="Cyberpunk Command Terminal Banner" />
 </p>
 
 # Solutions Architect & Cloud/Data Engineer | Special Operations Veteran
@@ -23,15 +23,15 @@
 
 ---
 
-## 🕹️ 1980s Mainframe Production Matrix & Subsystems
+## 🕹️ Mainframe Production Matrix & Subsystems
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/production_matrix.svg" width="100%" alt="1980s Glowing Production Matrix" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/production_matrix.svg" width="100%" alt="Glowing Production Matrix" />
 </p>
 
 ---
 
-## 🛠️ Retro 1980s Subsystem Modules
+## 🛠️ Core Technology & Cloud Subsystems
 
 <p align="center">
   <img src="https://img.shields.io/badge/DATABRICKS_LAKEHOUSE-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
