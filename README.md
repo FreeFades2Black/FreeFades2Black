@@ -5,6 +5,12 @@
 # Solutions Architect & Cloud/Data Engineer | Special Operations Veteran
 ### 18Z / 18F, US Army Special Forces (Ret.) | Partner: 7 Eagle Group
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=FreeFades2Black&color=00FF66&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/COMMITS-1.5K+-brightgreen?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/TESTS-189_PASSED-success?style=flat-square&logo=pytest" alt="Tests Passed" />
+</p>
+
 ---
 
 <p align="center">
@@ -20,19 +26,20 @@
 
 * **Organization**: [For Your Service](https://github.com/For-Your-Service)
 * **Projects**: [Gunslinger's Desktop Ledger](https://github.com/FreeFades2Black/gunslingers-desktop-ledger) | [Windows Cert Manager](https://github.com/FreeFades2Black/windows_cert_manager)
-* **Applications**: [Databricks FYS Matching App](https://fys-matching-app-7474643734871839.aws.databricksapps.com)
+* **Applications**: [Databricks FYS Matching App](https://fys-matching-app-7474643734871839.aws.databricksapps.com) | [Cloudflare Live Portal](https://eternal-duck-italia-lighter.trycloudflare.com)
 
 ---
 
 ## 📊 Productivity & Performance Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FreeFades2Black&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FreeFades2Black&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FreeFades2Black&theme=tokyonight" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=FreeFades2Black&theme=tokyonight" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FreeFades2Black&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=FreeFades2Black&theme=tokyonight&hide_border=true" width="49%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FreeFades2Black&theme=tokyo-night&hide_border=true" width="49%" />
 </p>
 
 ---
