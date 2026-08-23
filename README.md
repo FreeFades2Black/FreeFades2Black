@@ -75,9 +75,13 @@ C:\COMMAND_NET> DIR /W
   <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_metrics.svg" width="100%" alt="Panel 01: Core Metrics & Velocity" />
 </p>
 
+<br/>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_spectrum.svg" width="100%" alt="Panel 02: Codebase Technology Spectrum" />
 </p>
+
+<br/>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_oscilloscope.svg" width="100%" alt="Panel 03: Real-Time Oscilloscope Waveform" />
