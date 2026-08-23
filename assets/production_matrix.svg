@@ -1,0 +1,177 @@
+<svg width="850" height="340" viewBox="0 0 850 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Multi-Color Neon Phosphor Glow Filters -->
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-magenta" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-amber" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- CRT Screen Scanlines Texture -->
+    <pattern id="matrix-scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#00F0FF" stroke-opacity="0.04" stroke-width="1.2" />
+    </pattern>
+
+    <!-- Deep Synthwave Chassis Gradient -->
+    <linearGradient id="chassis-grad" x1="0" y1="0" x2="850" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#02080a"/>
+      <stop offset="50%" stop-color="#051214"/>
+      <stop offset="100%" stop-color="#03080c"/>
+    </linearGradient>
+
+    <!-- Colorful Animated Border Gradient -->
+    <linearGradient id="neon-border" x1="0" y1="0" x2="850" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF66"/>
+      <stop offset="35%" stop-color="#00F0FF"/>
+      <stop offset="70%" stop-color="#FF007F"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;display=swap');
+
+    .hdr-title {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 11px;
+      fill: #00F0FF;
+      letter-spacing: 1px;
+      filter: url(#glow-cyan);
+    }
+
+    .matrix-lbl {
+      font-family: 'VT323', monospace;
+      font-size: 18px;
+      letter-spacing: 1.2px;
+    }
+
+    .lbl-green { fill: #00FF66; filter: url(#glow-green); }
+    .lbl-cyan { fill: #00F0FF; filter: url(#glow-cyan); }
+    .lbl-magenta { fill: #FF007F; filter: url(#glow-magenta); }
+    .lbl-amber { fill: #FFD700; filter: url(#glow-amber); }
+
+    .bar-green { fill: #00FF66; filter: url(#glow-green); }
+    .bar-cyan { fill: #00F0FF; filter: url(#glow-cyan); }
+    .bar-magenta { fill: #FF007F; filter: url(#glow-magenta); }
+    .bar-amber { fill: #FFD700; filter: url(#glow-amber); }
+
+    .val-text {
+      font-family: 'VT323', monospace;
+      font-size: 17px;
+      fill: #E2E8F0;
+      letter-spacing: 0.8px;
+    }
+
+    .pulse {
+      animation: neonPulse 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes neonPulse {
+      0% { opacity: 0.85; }
+      100% { opacity: 1; }
+    }
+  </style>
+
+  <!-- 1980s Retro Glowing Chassis Frame -->
+  <rect x="2" y="2" width="846" height="336" rx="8" fill="url(#chassis-grad)" stroke="url(#neon-border)" stroke-width="2" class="pulse"/>
+  
+  <!-- CRT Scanlines -->
+  <rect x="2" y="2" width="846" height="336" rx="8" fill="url(#matrix-scanlines)" />
+
+  <!-- Title Header Bar -->
+  <path d="M 2 8 Q 2 2 8 2 L 842 2 Q 848 2 848 8 L 848 32 L 2 32 Z" fill="#02141a" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.5"/>
+  <line x1="2" y1="32" x2="848" y2="32" stroke="url(#neon-border)" stroke-width="1.5"/>
+
+  <!-- Vintage CRT LEDs (Glowing Multi-Color) -->
+  <circle cx="18" cy="17" r="4.5" fill="#FF0055" filter="url(#glow-magenta)"/>
+  <circle cx="32" cy="17" r="4.5" fill="#FFD700" filter="url(#glow-amber)"/>
+  <circle cx="46" cy="17" r="4.5" fill="#00FF66" filter="url(#glow-green)"/>
+  <circle cx="60" cy="17" r="4.5" fill="#00F0FF" filter="url(#glow-cyan)"/>
+
+  <!-- Mainframe Header Text -->
+  <text x="445" y="21" text-anchor="middle" class="hdr-title">[ MAINFRAME-1980s // REAL-TIME PRODUCTION TELEMETRY ]</text>
+
+  <!-- Row 01: Cloud Infrastructure (Electric Cyan) -->
+  <g transform="translate(30, 68)">
+    <text x="0" y="0" class="matrix-lbl lbl-cyan">[01] CLOUD INFRASTRUCTURE</text>
+    <text x="230" y="0" class="bar-cyan">[████████████████████]</text>
+    <text x="445" y="0" class="val-text">AWS // DATABRICKS // GCP // AZURE</text>
+  </g>
+
+  <!-- Row 02: Data Lakehouse Architecture (Neon Green) -->
+  <g transform="translate(30, 104)">
+    <text x="0" y="0" class="matrix-lbl lbl-green">[02] DATA ARCHITECTURE   </text>
+    <text x="230" y="0" class="bar-green">[████████████████████]</text>
+    <text x="445" y="0" class="val-text">PYSPARK // DELTA LAKE // UNITY CATALOG</text>
+  </g>
+
+  <!-- Row 03: IaC & Orchestration (Hot Synthwave Magenta) -->
+  <g transform="translate(30, 140)">
+    <text x="0" y="0" class="matrix-lbl lbl-magenta">[03] IAC &amp; ORCHESTRATION </text>
+    <text x="230" y="0" class="bar-magenta">[████████████████████]</text>
+    <text x="445" y="0" class="val-text">TERRAFORM // DOCKER // KUBERNETES</text>
+  </g>
+
+  <!-- Row 04: Core Programming & APIs (Amber Gold) -->
+  <g transform="translate(30, 176)">
+    <text x="0" y="0" class="matrix-lbl lbl-amber">[04] CORE PROGRAMMING    </text>
+    <text x="230" y="0" class="bar-amber">[████████████████████]</text>
+    <text x="445" y="0" class="val-text">PYTHON 3.12 // FASTAPI // POWERSHELL</text>
+  </g>
+
+  <!-- Row 05: Test Suite Integrity (Neon Green) -->
+  <g transform="translate(30, 212)">
+    <text x="0" y="0" class="matrix-lbl lbl-green">[05] TEST SUITE QUALITY  </text>
+    <text x="230" y="0" class="bar-green">[████████████████████]</text>
+    <text x="445" y="0" class="val-text">189/189 PASSED (100% RELIABILITY)</text>
+  </g>
+
+  <!-- Row 06: Defense Ecosystem (Electric Cyan) -->
+  <g transform="translate(30, 248)">
+    <text x="0" y="0" class="matrix-lbl lbl-cyan">[06] DEFENSE ECOSYSTEM   </text>
+    <text x="230" y="0" class="bar-cyan">[████████████████████]</text>
+    <text x="445" y="0" class="val-text">71 MOS // 20 HUBS // 25 CONTRACTORS</text>
+  </g>
+
+  <!-- Row 07: Security & Special Operations (Hot Magenta) -->
+  <g transform="translate(30, 284)">
+    <text x="0" y="0" class="matrix-lbl lbl-magenta">[07] MILITARY OPERATOR   </text>
+    <text x="230" y="0" class="bar-magenta">[████████████████████]</text>
+    <text x="445" y="0" class="val-text">18Z / 18F SF OPERATIONS (RET) • TS/SCI</text>
+  </g>
+
+  <!-- Bottom Status Telemetry Line (Amber Gold) -->
+  <g transform="translate(30, 318)">
+    <text x="0" y="0" class="matrix-lbl lbl-amber">&gt;&gt; SYSTEM STATUS: ALL SUBSYSTEMS GREEN • READY FOR COMBAT &amp; CLOUD</text>
+  </g>
+</svg>

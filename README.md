@@ -25,20 +25,9 @@
 
 ## 🕹️ 1980s Mainframe Production Matrix & Subsystems
 
-```text
-╔══════════════════════════════════════════════════════════════════════════════════╗
-║ [MAINFRAME-1980s] PRODUCTION MATRIX & REAL-TIME SYSTEM TELEMETRY                 ║
-╠══════════════════════════════════════════════════════════════════════════════════╣
-║ [01] CLOUD INFRASTRUCTURE : [████████████████████] AWS // DATABRICKS // GCP // AZURE ║
-║ [02] DATA ARCHITECTURE    : [████████████████████] PYSPARK // DELTA LAKE // UC   ║
-║ [03] IAC & ORCHESTRATION  : [████════════════════] TERRAFORM // DOCKER // K8S    ║
-║ [04] CORE PROGRAMMING     : [████████████████████] PYTHON 3.12 // FASTAPI // PS  ║
-║ [05] TEST SUITE INTEGRITY : [████████████████████] 189/189 PASSED (100% OK)     ║
-║ [06] DEFENSE ECOSYSTEM    : [████████████████████] 71 MOS // 20 HUBS // 25 PRIMES║
-║ [07] SECURITY CLEARANCE   : [████████████████████] TOP SECRET / SCI ELIGIBLE     ║
-║ [08] MILITARY OPERATOR    : [████████████████████] 18Z / 18F SF OPERATIONS (RET)  ║
-╚══════════════════════════════════════════════════════════════════════════════════╝
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/production_matrix.svg" width="100%" alt="1980s Glowing Production Matrix" />
+</p>
 
 ---
 
