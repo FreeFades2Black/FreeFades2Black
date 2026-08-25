@@ -76,6 +76,64 @@ npx @freefades2black/card
   <img src="https://img.shields.io/badge/KUBERNETES_CLUSTER-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/HELM_CHARTS-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
+  <img src="https://img.shields.io/badge/ISTIO_SERVICE_MESH-466BB0?style=for-the-badge&logo=istio&logoColor=white" />
+  <img src="https://img.shields.io/badge/ZERO_TRUST_MTLS-00FF66?style=for-the-badge&logo=shield&logoColor=black" />
+  <img src="https://img.shields.io/badge/CANARY_TRAFFIC_SPLIT-FF0055?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+## 🛡️ Enterprise Microservices: Helm Packaging & Istio Zero-Trust Mesh
+
+To elevate distributed cloud platforms (such as [For Your Service](https://github.com/For-Your-Service)) from standard Kubernetes deployments to an enterprise-grade, service-meshed microservice architecture, we integrate **Helm** and **Istio**:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Istio Ingress Gateway                    │
+│                 (Edge Ingress on Port 80/443)               │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    Istio VirtualService                     │
+│               (Intelligent / Canary Routing)                │
+└──────────────┬──────────────────────────────┬───────────────┘
+               │ (90% Primary v1)             │ (10% Canary v2)
+               ▼                              ▼
+┌──────────────────────────────┐ ┌──────────────────────────────┐
+│  Streamlit Frontend / API v1 │ │ Streamlit Frontend / API v2  │
+│  ┌────────────────────────┐  │ │  ┌────────────────────────┐  │
+│  │   Envoy Sidecar Proxy  │  │ │  │   Envoy Sidecar Proxy  │  │
+│  └───────────┬────────────┘  │ │  └───────────┬────────────┘  │
+│              ▼               │ │              ▼               │
+│  ┌────────────────────────┐  │ │  ┌────────────────────────┐  │
+│  │   Workload Application │  │ │  │   Workload Application │  │
+│  └────────────────────────┘  │ │  └────────────────────────┘  │
+└──────────────────────────────┘ └──────────────────────────────┘
+               ▲                              ▲
+               └──────────────┬───────────────┘
+                              │
+               [ Strict Mutual TLS: mTLS STRICT ]
+               (PeerAuthentication Zero-Trust Mesh)
+```
+
+### 📦 1. Helm — Modular Kubernetes Workload Packaging
+* **What It Does:** Helm acts as the package manager for Kubernetes, replacing scattered, hardcoded YAML manifests (`deployment.yaml`, `service.yaml`, `ingress.yaml`) with modular, versioned charts parameterized by a central `values.yaml`.
+* **How It Improves the Build:**
+  * **Environment-Agnostic Overlays:** Dynamically parameterizes replica counts, CPU/memory resource boundaries, and image tags across prototyping tiers, local development, and multi-zone production GKE/EKS clusters via `values-dev.yaml`, `values-staging.yaml`, and `values-prod.yaml`.
+  * **Atomic Releases & Automated Rollbacks:** Integrates into GitHub Actions CI/CD pipelines via `helm upgrade --install --atomic`, automatically detecting health probe failures and executing instant zero-downtime rollbacks.
+  * **DRY Architecture & Schema Enforcement:** Centralizes template helpers (`_helpers.tpl`), JSONSchema parameter validation (`values.schema.json`), and PodDisruptionBudgets (`pdb.yaml`) across all multi-tier workloads.
+
+### 🌐 2. Istio — Zero-Trust Service Mesh & Traffic Engineering
+* **What It Does:** Istio provides a high-performance service mesh that injects Envoy sidecar proxies alongside application containers, intercepting and managing all east-west and ingress/egress network communication transparently without modifying application code.
+* **How It Improves the Build:**
+  * **Zero-Trust Cryptographic Security (mTLS STRICT):** Enforces strict mutual TLS (`PeerAuthentication: STRICT`) across all microservices. Every inter-pod packet is encrypted in transit with cryptographically verified SPIFFE/SPIRE workload identities and automated certificate rotation.
+  * **Intelligent Traffic Management & Canary Deployments:** Replaces legacy Ingress controllers with an Istio Ingress Gateway and VirtualService. Supports weighted traffic splitting (e.g., 90% primary / 10% canary) to safely test neural matching algorithm upgrades and UI features with live traffic before full promotion.
+  * **Granular RBAC & Audited Egress:** Restricts API endpoint access via `AuthorizationPolicy` (whitelisting public health probes while isolating internal matching microservices) and routes all outbound government API calls (USAJOBS, RapidAPI) through dedicated Egress Gateways.
+  * **Deep Observability & Telemetry:** Emits real-time Prometheus metrics, OpenTelemetry distributed traces, and structured JSON Envoy access logs for sub-millisecond anomaly detection.
+
 ---
 
 ## 🏛️ Command & Control / Active Terminals
