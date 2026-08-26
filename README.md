@@ -24,13 +24,13 @@
 
 ---
 
-## ✈️ Senior AI Data Engineering Blueprint
-> **Executive Architecture Focus:** High-Throughput Telemetry Ingestion • Unity Catalog Governance • Vector/Tensor Feature Pipelines • Operational Control Planes
+## ⚙️ Senior AI Data Engineering Architecture Blueprint
+> **Architecture Focus:** High-Throughput Telemetry Ingestion • Unity Catalog Governance • Vector/Tensor Feature Pipelines • Operational Control Planes
 
-| Industrial / Aerospace Focus | Platform Lakehouse Implementation | Core Technologies |
+| Architecture Requirement | Lakehouse Platform Implementation | Core Technologies |
 | :--- | :--- | :--- |
-| **Mission-Critical Telemetry Ingestion** | High-throughput PySpark Auto Loader & CDC ingestion with Dead Letter Queue (DLQ) fault tolerance | PySpark, Delta Lake, Auto Loader |
-| **Enterprise Data Governance & Lineage** | Databricks Unity Catalog RBAC/ABAC, automated column-level lineage, and ITAR/CUI defense compliance | Databricks Unity Catalog, AWS IAM |
+| **Fault-Tolerant Telemetry Ingestion** | High-throughput PySpark Auto Loader & CDC ingestion with Dead Letter Queue (DLQ) fault tolerance | PySpark, Delta Lake, Auto Loader |
+| **Enterprise Data Governance & Lineage** | Databricks Unity Catalog RBAC/ABAC, automated column-level lineage, and multi-cloud IAM boundaries | Databricks Unity Catalog, AWS IAM |
 | **AI/ML Feature Store & Tensor Pipelines** | Distributed PySpark `@pandas_udf` batch inference, 384-dim normalized tensors, and similarity scoring | Hugging Face, PyTorch, Vector Search |
 | **Operational Control Planes & Observability** | Interactive Streamlit telemetry dashboards deployed serverless on Databricks Apps | Databricks Apps, Streamlit |
 | **Zero-Trust Cloud Microservices** | Kubernetes Helm 3 chart + Istio Service Mesh (Strict mTLS, Ingress Gateway, Canary 90/10) | Helm 3, Kubernetes, Istio Mesh |
