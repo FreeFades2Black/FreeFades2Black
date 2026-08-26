@@ -21,16 +21,25 @@
   <img src="https://img.shields.io/badge/🚀_INNOVATION-AI_PIONEER-FF0055?style=flat-square&logoColor=white" />
 </p>
 
----
+## 📡 Performance Telemetry & Output Metrics `[PINNED]`
 
-## 🕹️ Mainframe Production Matrix & Subsystems
-
+### 🟢 Panel 01: Core Metrics & Velocity
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/live_telemetry.svg?v=202608261010" width="100%" alt="Live System Telemetry Oscilloscope" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_metrics.svg?v=20260826" width="100%" alt="Panel 01: Core Metrics & Velocity" />
+</p>
+
+### 🔵 Panel 02: Codebase Technology Spectrum
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_spectrum.svg?v=20260826" width="100%" alt="Panel 02: Codebase Technology Spectrum" />
+</p>
+
+### 🟣 Panel 03: Real-Time Oscilloscope Waveform
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_oscilloscope.svg?v=20260826" width="100%" alt="Panel 03: Real-Time Oscilloscope Waveform" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/production_matrix.svg?v=202608261010" width="100%" alt="Glowing Production Matrix" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/live_telemetry.svg?v=20260826" width="100%" alt="Live System Telemetry Oscilloscope Pulse" />
 </p>
 
 ---
