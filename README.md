@@ -3,7 +3,7 @@
 </p>
 
 # Senior AI Data Engineer & Lakehouse Architect | Special Operations Veteran
-### 18Z / 18F, US Army Special Forces (Ret.) | Partner: 7 Eagle Group • Lead Architect: For Your Service
+### 18Z / 18F, US Army Special Forces (Ret.) | Partner: 7 Eagle Group • Lead Architect: [For Your Service](https://github.com/For-Your-Service)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FreeFades2Black&color=00FF66&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
@@ -16,104 +16,32 @@
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🕹️_STREAK_MASTER-90%2B_DAYS-00FF66?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/⚡_SPEED_CODER-3000%2B_COMMITS-00F0FF?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/🌟_OPEN_SOURCE-CONTRIBUTOR-FFE600?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/🚀_INNOVATION-AI_PIONEER-FF0055?style=flat-square&logoColor=white" />
-</p>
-
-## 📡 Performance Telemetry & Output Metrics `[PINNED]`
-
-### 🟢 Panel 01: Core Metrics & Velocity
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_metrics.svg?v=20260826" width="100%" alt="Panel 01: Core Metrics & Velocity" />
-</p>
-
-### 🔵 Panel 02: Codebase Technology Spectrum
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_spectrum.svg?v=20260826" width="100%" alt="Panel 02: Codebase Technology Spectrum" />
-</p>
-
-### 🟣 Panel 03: Real-Time Oscilloscope Waveform
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_oscilloscope.svg?v=20260826" width="100%" alt="Panel 03: Real-Time Oscilloscope Waveform" />
-</p>
+## 📡 Live Telemetry & Performance Radar
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/live_telemetry.svg?v=20260826" width="100%" alt="Live System Telemetry Oscilloscope Pulse" />
 </p>
 
----
-
-## 🐍 Neural Grid Activity Matrix (Live Contribution Stream)
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_dashboard.svg?v=20260826" width="100%" alt="Mainframe Telemetry Dashboard" />
 </p>
 
 ---
-
-## ⚡ Interactive Terminal Command Card
-
-Run the interactive cyberpunk operator business card instantly in any terminal:
-
-```bash
-npx @freefades2black/card
-```
 
 ## ✈️ Senior AI Data Engineering Blueprint
 > **Executive Architecture Focus:** High-Throughput Telemetry Ingestion • Unity Catalog Governance • Vector/Tensor Feature Pipelines • Operational Control Planes
 
-| Core Capability | Lakehouse Implementation |
-| :--- | :--- |
-| **Mission-Critical Telemetry Ingestion** | High-throughput PySpark Auto Loader & CDC ingestion with Dead Letter Queue (DLQ) fault tolerance |
-| **Enterprise Data Governance & Lineage** | Databricks Unity Catalog RBAC/ABAC, automated column-level lineage, and ITAR/CUI defense compliance |
-| **AI/ML Feature Store & Tensor Pipelines** | Distributed PySpark `@pandas_udf` batch inference, 384-dim normalized tensors, and similarity scoring |
-| **Operational Control Planes & Observability** | Interactive Streamlit telemetry dashboards deployed serverless on Databricks Apps |
-| **Zero-Trust Cloud Microservices** | Kubernetes Helm 3 chart + Istio Service Mesh (Strict mTLS, Ingress Gateway, Canary 90/10) |
-
----
-
-## 🛠️ Core Technology & Cloud Subsystems
-
-<p align="center">
-  <img src="https://img.shields.io/badge/DATABRICKS_LAKEHOUSE-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS_CLOUD_INFRA-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP_ANALYTICS-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/AZURE_ENTERPRISE-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/APACHE_PYSPARK-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" />
-  <img src="https://img.shields.io/badge/DELTA_LAKE_STORAGE-3595FF?style=for-the-badge&logo=delta-lake&logoColor=white" />
-  <img src="https://img.shields.io/badge/TERRAFORM_IAC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/DOCKER_CONTAINERS-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PYTHON_ENGINE-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FASTAPI_MICROSERVICES-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/POWERSHELL_AUTOMATION-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-  <img src="https://img.shields.io/badge/KUBERNETES_CLUSTER-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HELM_CHARTS-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
-  <img src="https://img.shields.io/badge/ISTIO_SERVICE_MESH-466BB0?style=for-the-badge&logo=istio&logoColor=white" />
-  <img src="https://img.shields.io/badge/ZERO_TRUST_MTLS-00FF66?style=for-the-badge&logo=shield&logoColor=black" />
-  <img src="https://img.shields.io/badge/CANARY_TRAFFIC_SPLIT-FF0055?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+| Industrial / Aerospace Focus | Platform Lakehouse Implementation | Core Technologies |
+| :--- | :--- | :--- |
+| **Mission-Critical Telemetry Ingestion** | High-throughput PySpark Auto Loader & CDC ingestion with Dead Letter Queue (DLQ) fault tolerance | PySpark, Delta Lake, Auto Loader |
+| **Enterprise Data Governance & Lineage** | Databricks Unity Catalog RBAC/ABAC, automated column-level lineage, and ITAR/CUI defense compliance | Databricks Unity Catalog, AWS IAM |
+| **AI/ML Feature Store & Tensor Pipelines** | Distributed PySpark `@pandas_udf` batch inference, 384-dim normalized tensors, and similarity scoring | Hugging Face, PyTorch, Vector Search |
+| **Operational Control Planes & Observability** | Interactive Streamlit telemetry dashboards deployed serverless on Databricks Apps | Databricks Apps, Streamlit |
+| **Zero-Trust Cloud Microservices** | Kubernetes Helm 3 chart + Istio Service Mesh (Strict mTLS, Ingress Gateway, Canary 90/10) | Helm 3, Kubernetes, Istio Mesh |
 
 ---
 
 ## 🛡️ Enterprise Microservices: Helm Packaging & Istio Zero-Trust Mesh
-
-To elevate distributed cloud platforms (such as [For Your Service](https://github.com/For-Your-Service)) from standard Kubernetes deployments to an enterprise-grade, service-meshed microservice architecture, we integrate **Helm** and **Istio**:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -145,50 +73,57 @@ To elevate distributed cloud platforms (such as [For Your Service](https://githu
                (PeerAuthentication Zero-Trust Mesh)
 ```
 
-### 📦 1. Helm — Modular Kubernetes Workload Packaging
-* **What It Does:** Helm acts as the package manager for Kubernetes, replacing scattered, hardcoded YAML manifests (`deployment.yaml`, `service.yaml`, `ingress.yaml`) with modular, versioned charts parameterized by a central `values.yaml`.
-* **How It Improves the Build:**
-  * **Environment-Agnostic Overlays:** Dynamically parameterizes replica counts, CPU/memory resource boundaries, and image tags across prototyping tiers, local development, and multi-zone production GKE/EKS clusters via `values-dev.yaml`, `values-staging.yaml`, and `values-prod.yaml`.
-  * **Atomic Releases & Automated Rollbacks:** Integrates into GitHub Actions CI/CD pipelines via `helm upgrade --install --atomic`, automatically detecting health probe failures and executing instant zero-downtime rollbacks.
-  * **DRY Architecture & Schema Enforcement:** Centralizes template helpers (`_helpers.tpl`), JSONSchema parameter validation (`values.schema.json`), and PodDisruptionBudgets (`pdb.yaml`) across all multi-tier workloads.
-
-### 🌐 2. Istio — Zero-Trust Service Mesh & Traffic Engineering
-* **What It Does:** Istio provides a high-performance service mesh that injects Envoy sidecar proxies alongside application containers, intercepting and managing all east-west and ingress/egress network communication transparently without modifying application code.
-* **How It Improves the Build:**
-  * **Zero-Trust Cryptographic Security (mTLS STRICT):** Enforces strict mutual TLS (`PeerAuthentication: STRICT`) across all microservices. Every inter-pod packet is encrypted in transit with cryptographically verified SPIFFE/SPIRE workload identities and automated certificate rotation.
-  * **Intelligent Traffic Management & Canary Deployments:** Replaces legacy Ingress controllers with an Istio Ingress Gateway and VirtualService. Supports weighted traffic splitting (e.g., 90% primary / 10% canary) to safely test neural matching algorithm upgrades and UI features with live traffic before full promotion.
-  * **Granular RBAC & Audited Egress:** Restricts API endpoint access via `AuthorizationPolicy` (whitelisting public health probes while isolating internal matching microservices) and routes all outbound government API calls (USAJOBS, RapidAPI) through dedicated Egress Gateways.
-  * **Deep Observability & Telemetry:** Emits real-time Prometheus metrics, OpenTelemetry distributed traces, and structured JSON Envoy access logs for sub-millisecond anomaly detection.
+* **Helm Workload Packaging:** Modular, parameterized Helm 3 charts with environment overlays (`dev`, `staging`, `prod`), zero-downtime atomic rollbacks, and schema validation.
+* **Istio Service Mesh:** Strict cryptographic mutual TLS (`mTLS: STRICT`), fine-grained authorization policies, and automated canary traffic splitting (90/10).
 
 ---
 
-## 🏛️ Command & Control / Active Terminals
+## 🛠️ Core Technology & Cloud Subsystems
 
-```text
-C:\COMMAND_NET> DIR /W
-[ORGANIZATION]  -->  FOR YOUR SERVICE            [https://github.com/For-Your-Service]
-[PROJECT_01]    -->  GUNSLINGER'S DESKTOP LEDGER [https://github.com/FreeFades2Black/gunslingers-desktop-ledger]
-[PROJECT_02]    -->  WINDOWS CERT MANAGER ('THE J') [https://github.com/FreeFades2Black/windows_cert_manager]
-[CLOUD_APP]     -->  DATABRICKS FYS SERVERLESS   [https://fys-matching-app-7474643734871839.aws.databricksapps.com]
-[LIVE_TUNNEL]   -->  CLOUDFLARE SECURE GATEWAY   [https://eternal-duck-italia-lighter.trycloudflare.com]
+<p align="center">
+  <img src="https://img.shields.io/badge/DATABRICKS_LAKEHOUSE-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/APACHE_PYSPARK-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" />
+  <img src="https://img.shields.io/badge/DELTA_LAKE_STORAGE-3595FF?style=for-the-badge&logo=delta-lake&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS_CLOUD_INFRA-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TERRAFORM_IAC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/KUBERNETES_CLUSTER-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/HELM_CHARTS-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
+  <img src="https://img.shields.io/badge/ISTIO_SERVICE_MESH-466BB0?style=for-the-badge&logo=istio&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PYTHON_ENGINE-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FASTAPI_MICROSERVICES-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/ZERO_TRUST_MTLS-00FF66?style=for-the-badge&logo=shield&logoColor=black" />
+  <img src="https://img.shields.io/badge/CANARY_TRAFFIC_SPLIT-FF0055?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+## ⚡ Interactive Terminal Command Card
+
+Run the interactive operator card instantly in any terminal:
+
+```bash
+npx @freefades2black/card
 ```
 
 ---
 
-## 📊 Performance Telemetry & Output Metrics
+## 🏛️ Live Command & Control Endpoints
+
+```text
+C:\COMMAND_NET> DIR /W
+[ORGANIZATION]  -->  FOR YOUR SERVICE            [https://github.com/For-Your-Service]
+[PROJECT_01]    -->  FOR YOUR SERVICE LAKEHOUSE  [https://github.com/For-Your-Service/For-Your-Service]
+[PROJECT_02]    -->  GUNSLINGER'S DESKTOP LEDGER [https://github.com/FreeFades2Black/gunslingers-desktop-ledger]
+[PROJECT_03]    -->  WINDOWS CERT MANAGER        [https://github.com/FreeFades2Black/windows_cert_manager]
+[LIVE_APP]      -->  DATABRICKS SERVERLESS APP   [https://fys-matching-app-7474643734871839.aws.databricksapps.com]
+```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_metrics.svg" width="100%" alt="Panel 01: Core Metrics & Velocity" />
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_spectrum.svg" width="100%" alt="Panel 02: Codebase Technology Spectrum" />
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_oscilloscope.svg" width="100%" alt="Panel 03: Real-Time Oscilloscope Waveform" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/footer-status.svg" width="100%" alt="Footer Status" />
 </p>
