@@ -26,6 +26,10 @@
 ## 🕹️ Mainframe Production Matrix & Subsystems
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/live_telemetry.svg" width="100%" alt="Live System Telemetry Oscilloscope" />
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/production_matrix.svg" width="100%" alt="Glowing Production Matrix" />
 </p>
 
