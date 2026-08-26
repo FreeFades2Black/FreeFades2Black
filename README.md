@@ -7,16 +7,16 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FreeFades2Black&color=00FF66&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/COMMITS-1.5K+-00FF66?style=flat-square&logo=git&logoColor=black" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/COMMITS-3.0K+-00FF66?style=flat-square&logo=git&logoColor=black" alt="Total Commits" />
   <img src="https://img.shields.io/badge/SYSTEM-100%25_OPERATIONAL-00F0FF?style=flat-square&logo=powershell&logoColor=black" alt="System Status" />
-  <img src="https://img.shields.io/badge/TESTS-189_PASSED-00FF66?style=flat-square&logo=pytest&logoColor=black" alt="Tests Passed" />
+  <img src="https://img.shields.io/badge/TESTS-232_PASSED-00FF66?style=flat-square&logo=pytest&logoColor=black" alt="Tests Passed" />
 </p>
 
 ---
 
 <p align="center">
   <img src="https://img.shields.io/badge/🕹️_STREAK_MASTER-90%2B_DAYS-00FF66?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/⚡_SPEED_CODER-1000%2B_COMMITS-00F0FF?style=flat-square&logoColor=black" />
+  <img src="https://img.shields.io/badge/⚡_SPEED_CODER-3000%2B_COMMITS-00F0FF?style=flat-square&logoColor=black" />
   <img src="https://img.shields.io/badge/🌟_OPEN_SOURCE-CONTRIBUTOR-FFE600?style=flat-square&logoColor=black" />
   <img src="https://img.shields.io/badge/🚀_INNOVATION-AI_PIONEER-FF0055?style=flat-square&logoColor=white" />
 </p>
@@ -26,11 +26,11 @@
 ## 🕹️ Mainframe Production Matrix & Subsystems
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/live_telemetry.svg" width="100%" alt="Live System Telemetry Oscilloscope" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/live_telemetry.svg?v=202608261010" width="100%" alt="Live System Telemetry Oscilloscope" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/production_matrix.svg" width="100%" alt="Glowing Production Matrix" />
+  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/production_matrix.svg?v=202608261010" width="100%" alt="Glowing Production Matrix" />
 </p>
 
 ---
