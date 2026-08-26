@@ -146,7 +146,7 @@
   <g transform="translate(38, 104)">
     <text x="0" y="0" class="tel-lbl c-cyan">&gt; TOTAL COMMITS</text>
     <text x="180" y="0" class="tel-bar c-green">[████████████████████]</text>
-    <text x="390" y="0" class="tel-val">3,080+ COMMITS • TOP 1% GLOBAL SPRINT</text>
+    <text x="390" y="0" class="tel-val">1,540+ COMMITS • TOP 1% GLOBAL SPRINT</text>
   </g>
 
   <!-- Metric 2: Streak -->
@@ -160,14 +160,14 @@
   <g transform="translate(38, 168)">
     <text x="0" y="0" class="tel-lbl c-cyan">&gt; TEST COVERAGE</text>
     <text x="180" y="0" class="tel-bar c-green">[████████████████████]</text>
-    <text x="390" y="0" class="tel-val">232 / 232 TEST SUITES PASSED (100% RELIABLE)</text>
+    <text x="390" y="0" class="tel-val">189 / 189 TEST SUITES PASSED (100% RELIABLE)</text>
   </g>
 
   <!-- Metric 4: Defense -->
   <g transform="translate(38, 200)">
     <text x="0" y="0" class="tel-lbl c-cyan">&gt; DEFENSE NETWORK</text>
     <text x="180" y="0" class="tel-bar c-amber">[████████████████████]</text>
-    <text x="390" y="0" class="tel-val">71 MOS • 35 BASE CLUSTERS • 50 STATES</text>
+    <text x="390" y="0" class="tel-val">71 MOS • 20 BASE HUBS • 25 DEFENSE PRIMES</text>
   </g>
 
   <!-- ========================================================================= -->
