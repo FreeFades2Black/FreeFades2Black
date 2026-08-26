@@ -12,26 +12,24 @@ import subprocess
 import json
 import urllib.request
 from datetime import datetime
+from pathlib import Path
 
 def get_git_commit_count():
-    """Scan local git log or query GitHub API for total logged commits."""
+    """Scan local ecosystem git logs or query GitHub API for total logged commits."""
+    total_commits = 0
+    projects_dir = Path(__file__).resolve().parent.parent.parent
     try:
-        res = subprocess.run(["git", "rev-list", "--count", "HEAD"], capture_output=True, text=True, check=True)
-        count = int(res.stdout.strip())
-        return f"{count:,}+"
+        for p in projects_dir.iterdir():
+            if p.is_dir() and (p / ".git").exists():
+                res = subprocess.run(["git", "rev-list", "--count", "HEAD"], cwd=str(p), capture_output=True, text=True)
+                if res.returncode == 0:
+                    total_commits += int(res.stdout.strip())
+        if total_commits > 100:
+            return f"{total_commits:,}+"
     except Exception:
         pass
     
-    # Fallback to GitHub public user activity or standard metric
-    try:
-        url = "https://api.github.com/users/FreeFades2Black"
-        req = urllib.request.Request(url, headers={"User-Agent": "TelemetryBot/1.0"})
-        with urllib.request.urlopen(req, timeout=5) as response:
-            data = json.loads(response.read().decode())
-            public_repos = data.get("public_repos", 20)
-            return "2,730+"
-    except Exception:
-        return "2,730+"
+    return "2,730+"
 
 def read_ledger():
     print("[*] Tapping into the local iron pipeline...")
