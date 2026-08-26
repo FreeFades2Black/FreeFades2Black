@@ -16,14 +16,10 @@
 
 ---
 
-## 📡 Live Telemetry & Performance Radar
+## 📡 Live Telemetry Link `[PROTOCOL 19]`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/live_telemetry.svg?v=20260826" width="100%" alt="Live System Telemetry Oscilloscope Pulse" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/FreeFades2Black/FreeFades2Black/main/assets/telemetry_dashboard.svg?v=20260826" width="100%" alt="Mainframe Telemetry Dashboard" />
 </p>
 
 ---
