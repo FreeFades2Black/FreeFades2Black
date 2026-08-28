@@ -1,6 +1,6 @@
 # William Free Hall (Free)
 ### Principal Cloud & AI Architect • DevSecOps Lead • Databricks SME
-**Niceville, FL** • [LinkedIn](https://linkedin.com/in/william-free-hall) • [GitHub Enterprise](https://github.com/For-Your-Service) • Email: whall4.wh@gmail.com
+**Niceville, FL** • [LinkedIn](https://linkedin.com/in/william-free-hall) • [GitHub Enterprise](https://github.com/For-Your-Service) • Email: [whall4.wh@gmail.com](mailto:whall4.wh@gmail.com)
 
 ---
 
@@ -18,7 +18,7 @@ Veteran U.S. Army Special Forces Intelligence Sergeant (18F) and Team Sergeant (
 flowchart TD
     subgraph MultiCloudIaC ["1. Multi-Cloud IaC & GitOps (Terraform + Helm 3)"]
         TF["Terraform Modular IaC<br/>(AWS S3/KMS/IAM + Databricks + GCP)"]
-        Helm["Helm 3 Chart (charts/for-your-service)<br/>values-dev | values-staging | values-prod"]
+        Helm["Helm 3 Chart Suite<br/>values-dev | values-staging | values-prod"]
         Istio["Istio Service Mesh<br/>Strict mTLS + Ingress Gateway + Canary 90/10"]
         TF --> Helm --> Istio
     end
@@ -30,7 +30,14 @@ flowchart TD
         Bronze --> Silver --> Gold
     end
 
-    subgraph ControlPlanes ["3. Serverless Control Planes & Observability"]
+    subgraph RemediationEngine ["3. Serverless Auto-Remediation & Compliance"]
+        EventBridge["AWS EventBridge Custom Rules"]
+        Lambda["AWS Lambda Event Handlers"]
+        Audit["Structured CloudWatch JSON Audit Logs"]
+        EventBridge --> Lambda --> Audit
+    end
+
+    subgraph ControlPlanes ["4. Serverless Control Planes & Observability"]
         DBX["Databricks Apps (fys-matching-app)<br/>Serverless Compute ($0 Idle Run-Rate)"]
         Streamlit["Streamlit Community Cloud (24/7 Free)"]
         Metrics["Live 4-Card Usage Telemetry Engine"]
@@ -40,7 +47,7 @@ flowchart TD
 
 ---
 
-## 🚀 Pinned Architectural Projects
+## 🚀 Pinned Flagship Projects
 
 ### 1. [For Your Service — Enterprise Lakehouse & Neural Vector Matching Engine](https://github.com/For-Your-Service/For-Your-Service)
 * **Core Problem:** Military service records and combat/technical leadership sit in unstructured PDFs that civilian ATS filters reject.
@@ -53,18 +60,27 @@ flowchart TD
 
 ---
 
-### 2. [Enterprise Multi-Cloud GitOps & Zero-Trust Service Mesh](https://github.com/For-Your-Service/For-Your-Service/tree/main/charts/for-your-service)
-* **Core Problem:** Microservices in regulated defense/aerospace environments require continuous compliance, strict zero-trust network boundaries, and zero-downtime canary traffic migration.
+### 2. [Enterprise Multi-Cloud GitOps & Zero-Trust Pipeline](https://github.com/FreeFades2Black/enterprise-multicloud-gitops-zerotrust)
+* **Core Problem:** Multi-cloud Kubernetes clusters across AWS and GCP suffer from configuration drift, static credential leakage, and late-stage CIS compliance failures.
 * **Architectural Solution:**
-  * **Helm 3 Chart Suite:** Parameterized packaging for 4 multi-stage microservices (`portal`, `api`, `ingestor`, `spark-runner`) published to `ghcr.io`.
-  * **Istio Zero-Trust Mesh:** Strict mutual TLS (`PeerAuthentication: STRICT`), fine-grained authorization policies, and automated Canary traffic splitting (90% stable / 10% canary).
-  * **Reliability Controls:** Horizontal Pod Autoscalers (HPA 1–10 replicas) based on CPU/memory telemetry, Pod Disruption Budgets (PDB), and Resource Quotas.
-  * **Declarative IaC (Terraform):** Modular infrastructure defining S3 buckets, Databricks secret scopes, KMS encryption, and IAM least-privilege boundaries with zero configuration drift.
+  * **Modular Terraform IaC:** Reusable multi-cloud provisioning with S3/DynamoDB remote state locking.
+  * **HashiCorp Vault & Cloud KMS:** Dynamic, short-lived tokens eliminating static Kubernetes secret exposure.
+  * **ArgoCD Declarative GitOps:** Automated pull-based cluster synchronization with self-healing reconciliation.
+  * **Policy-as-Code Gatekeeper:** OPA (Open Policy Agent) and Conftest enforcing CIS Kubernetes and Terraform benchmarks in CI/CD.
 
 ---
 
-### 3. [Universal Resume Normalization & ATS Extraction Pipeline](https://github.com/FreeFades2Black/universal-resume-pipeline)
-* **Core Problem:** Unstructured resumes across PDF/DOCX formats suffer from data loss, multi-column parsing failures, and manual re-entry across ATS portals (Greenhouse, Lever, Workday).
+### 3. [Serverless Cloud Incident Auto-Remediation & Compliance Engine](https://github.com/FreeFades2Black/serverless-cloud-autoremediation-engine)
+* **Core Problem:** Configuration drift and accidental public exposure in cloud accounts create dangerous vulnerability windows when relying on slow 24-hour compliance scans.
+* **Architectural Solution:**
+  * **Sub-Second Event-Driven Remediation:** Intercepts CloudTrail mutations via AWS EventBridge and executes least-privilege AWS Lambda handlers in < 1.2 seconds.
+  * **Automated Security Controls:** Instant `PutPublicAccessBlock` enforcement on S3, automatic revocation of `0.0.0.0/0` ingress on ports 22/3389, and unencrypted EBS volume tagging.
+  * **Audit Logging & Alerting:** Generates structured CloudWatch JSON audit trails and formatted Slack/Teams security alerts.
+
+---
+
+### 4. [Universal Resume Normalization & ATS Extraction Pipeline](https://github.com/FreeFades2Black/universal-resume-pipeline)
+* **Core Problem:** Unstructured resumes across PDF/DOCX formats suffer from multi-column parsing failures, keyword stripping, and manual re-entry across ATS portals (Greenhouse, Lever, Workday).
 * **Architectural Solution:**
   * **Schema-Enforced Normalization:** Robust extraction engine utilizing Pydantic schemas to validate and normalize arbitrary technical resumes into standard JSON.
   * **Zero-Cost Parsing Engine:** 100% local, offline extraction (`pypdf`, `python-docx`) without recurring third-party LLM API dependencies.
@@ -72,7 +88,7 @@ flowchart TD
 
 ---
 
-### 4. [Omarchy Linux Antigravity Bootstrap & System Provenance Engine](https://github.com/FreeFades2Black/omarchy-antigravity-bootstrap)
+### 5. [Omarchy Linux Antigravity Bootstrap & System Provenance Engine](https://github.com/FreeFades2Black/omarchy-antigravity-bootstrap)
 * **Core Problem:** Setting up low-latency, hardened Linux development workstations with automated agentic AI workflows and system health healing is time-consuming and fragile.
 * **Architectural Solution:**
   * **305-Commit Automated Toolchain:** Complete step-by-step automation provisioning Arch Linux on ASUS ROG Flow Z13 convertible hardware.
@@ -85,12 +101,11 @@ flowchart TD
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Cloud & Lakehouse Platforms** | Databricks Lakehouse, Delta Lake, Unity Catalog, AWS (S3, Lambda, IAM, KMS, DynamoDB), GCP (BigQuery, GCS), Azure |
-| **DevSecOps & Orchestration** | Kubernetes, Helm 3, Istio Service Mesh, Docker, Docker Compose, Terraform / OpenTofu, GitHub Actions CI/CD |
+| **Cloud & Lakehouse Platforms** | Databricks Lakehouse, Delta Lake, Unity Catalog, AWS (S3, Lambda, EventBridge, IAM, KMS), GCP (GKE, BigQuery, GCS), Azure |
+| **DevSecOps & Orchestration** | Kubernetes (EKS/GKE), Helm 3, Istio Service Mesh, ArgoCD, Docker, Terraform / OpenTofu, HashiCorp Vault, GitHub Actions |
 | **Data Engineering & Streaming** | Apache Spark, PySpark, Auto Loader, Structured Streaming, Change Data Feed (CDC), Pandas UDFs, Delta Sharing |
-| **AI/ML & Vector Systems** | Hugging Face, PyTorch, Sentence-Transformers (`all-MiniLM-L6-v2`), Vector Embeddings, In-Memory Cosine Similarity |
+| **Security & Compliance** | Zero-Trust Architecture, Strict mTLS, Open Policy Agent (OPA), Conftest, Trivy, IAM Least-Privilege, CIS Benchmarks |
 | **Languages & Toolchains** | Python 3.11/3.12/3.14, SQL, Bash / Shell, PowerShell, REST APIs, FastAPI, Streamlit, Git |
-| **Security & Compliance** | Zero-Trust Architecture, Strict mTLS, IAM Least-Privilege, Policy-as-Code, ITAR/CUI Compliance, PKI |
 
 ---
 
