@@ -49,7 +49,18 @@ flowchart TD
 
 ## 🚀 Pinned Flagship Projects
 
-### 1. [For Your Service — Enterprise Lakehouse & Neural Vector Matching Engine](https://github.com/For-Your-Service/For-Your-Service)
+### 1. [UAP Sightings Data Lakehouse & Ingestion Pipeline](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+* **Core Problem:** Unidentified Aerial Phenomena (UAP) sensor feeds, military records, and public sighting databases are fragmented across incompatible formats, making longitudinal analysis difficult.
+* **Architectural Solution:**
+  * **Databricks Medallion Architecture (Bronze ➔ Silver ➔ Gold):** End-to-end ingestion pipeline unwrapping raw multi-source JSON into Bronze Delta tables, normalizing 75 years of temporal/spatial data into Silver, and aggregating 5 Gold business intelligence tables.
+  * **Multi-Source Parallel Scraping Engine:** Concurrent ingestion across Kaggle NUFORC, AARO DoD Declassified, NASA Science, and HuggingFace with SHA-256 deduplication and synthetic fallback.
+  * **Production Containerization & Kubernetes:** Multi-stage Docker container with non-root security context (`uapuser:10001`), scheduled Kubernetes `batch/v1 CronJob`, and FastAPI telemetry microservice.
+  * **Interactive Geospatial Dashboard:** Live web visualization featuring 1,005 plotted cluster points, shape taxonomy breakdowns, and state-by-state heatmaps.
+* **Live Deployment:** [UAP Live Intelligence Dashboard on GitHub Pages](https://freefades2black.github.io/uap-scraper-pipeline/)
+
+---
+
+### 2. [For Your Service — Enterprise Lakehouse & Neural Vector Matching Engine](https://github.com/For-Your-Service/For-Your-Service)
 * **Core Problem:** Military service records and combat/technical leadership sit in unstructured PDFs that civilian ATS filters reject.
 * **Architectural Solution:**
   * **Lakehouse Medallion Pipeline:** Distributed PySpark and Delta Lake engine parsing raw operational payloads into structured Silver records and Gold vector embeddings (`@pandas_udf` with `all-MiniLM-L6-v2`).
@@ -60,7 +71,7 @@ flowchart TD
 
 ---
 
-### 2. [Enterprise Multi-Cloud GitOps & Zero-Trust Pipeline](https://github.com/FreeFades2Black/enterprise-multicloud-gitops-zerotrust)
+### 3. [Enterprise Multi-Cloud GitOps & Zero-Trust Pipeline](https://github.com/FreeFades2Black/enterprise-multicloud-gitops-zerotrust)
 * **Core Problem:** Multi-cloud Kubernetes clusters across AWS and GCP suffer from configuration drift, static credential leakage, and late-stage CIS compliance failures.
 * **Architectural Solution:**
   * **Modular Terraform IaC:** Reusable multi-cloud provisioning with S3/DynamoDB remote state locking.
@@ -70,7 +81,7 @@ flowchart TD
 
 ---
 
-### 3. [Serverless Cloud Incident Auto-Remediation & Compliance Engine](https://github.com/FreeFades2Black/serverless-cloud-autoremediation-engine)
+### 4. [Serverless Cloud Incident Auto-Remediation & Compliance Engine](https://github.com/FreeFades2Black/serverless-cloud-autoremediation-engine)
 * **Core Problem:** Configuration drift and accidental public exposure in cloud accounts create dangerous vulnerability windows when relying on slow 24-hour compliance scans.
 * **Architectural Solution:**
   * **Sub-Second Event-Driven Remediation:** Intercepts CloudTrail mutations via AWS EventBridge and executes least-privilege AWS Lambda handlers in < 1.2 seconds.
@@ -79,7 +90,7 @@ flowchart TD
 
 ---
 
-### 4. [Universal Resume Normalization & ATS Extraction Pipeline](https://github.com/FreeFades2Black/universal-resume-pipeline)
+### 5. [Universal Resume Normalization & ATS Extraction Pipeline](https://github.com/FreeFades2Black/universal-resume-pipeline)
 * **Core Problem:** Unstructured resumes across PDF/DOCX formats suffer from multi-column parsing failures, keyword stripping, and manual re-entry across ATS portals (Greenhouse, Lever, Workday).
 * **Architectural Solution:**
   * **Schema-Enforced Normalization:** Robust extraction engine utilizing Pydantic schemas to validate and normalize arbitrary technical resumes into standard JSON.
@@ -88,7 +99,7 @@ flowchart TD
 
 ---
 
-### 5. [Omarchy Linux Antigravity Bootstrap & System Provenance Engine](https://github.com/FreeFades2Black/omarchy-antigravity-bootstrap)
+### 6. [Omarchy Linux Antigravity Bootstrap & System Provenance Engine](https://github.com/FreeFades2Black/omarchy-antigravity-bootstrap)
 * **Core Problem:** Setting up low-latency, hardened Linux development workstations with automated agentic AI workflows and system health healing is time-consuming and fragile.
 * **Architectural Solution:**
   * **305-Commit Automated Toolchain:** Complete step-by-step automation provisioning Arch Linux on ASUS ROG Flow Z13 convertible hardware.
