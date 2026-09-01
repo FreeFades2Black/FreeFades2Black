@@ -1,6 +1,11 @@
 # William Free Hall (Free)
-### Principal Cloud & AI Architect • DevSecOps Lead • Databricks SME
+### *Principal Cloud & AI Architect • DevSecOps Lead • Databricks SME*
 **Niceville, FL** • [LinkedIn](https://linkedin.com/in/william-free-hall) • [GitHub Enterprise](https://github.com/For-Your-Service) • Email: [whall4.wh@gmail.com](mailto:whall4.wh@gmail.com)
+
+[![Profile Views](https://komarev.com/ghpvc/?username=FreeFades2Black&color=blueviolet&style=for-the-badge)](https://github.com/FreeFades2Black)
+[![GitHub Repos](https://img.shields.io/badge/Flagship%20Portfolio-Production%20Verified-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FreeFades2Black)
+[![Databricks SME](https://img.shields.io/badge/Specialization-Databricks%20%7C%20PySpark%20%7C%20Delta%20Lake-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/FreeFades2Black)
+[![Zero-Trust DevSecOps](https://img.shields.io/badge/Security-CIS%20v1.8%20%7C%20NIST%20800--53-blue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/FreeFades2Black)
 
 ---
 
@@ -24,24 +29,24 @@ flowchart TD
     end
 
     subgraph LakehouseEngine ["2. Distributed Lakehouse & Telemetry (PySpark + Delta Lake)"]
-        Bronze["Bronze Layer<br/>High-Throughput Raw Ingestion"]
-        Silver["Silver Layer<br/>Sanitization & Clearance Tagging"]
-        Gold["Gold Layer<br/>Distributed 384-dim Tensor Embeddings"]
+        Bronze["Bronze Layer<br/>High-Throughput Raw Ingestion (3,200+ Reqs/Sensors)"]
+        Silver["Silver Layer<br/>SCD-2 Normalization & Quality Gate (0-100%)"]
+        Gold["Gold Layer<br/>Longitudinal Trends & Anomaly Registers"]
         Bronze --> Silver --> Gold
     end
 
-    subgraph RemediationEngine ["3. Serverless Auto-Remediation & Compliance"]
-        EventBridge["AWS EventBridge Custom Rules"]
-        Lambda["AWS Lambda Event Handlers"]
-        Audit["Structured CloudWatch JSON Audit Logs"]
-        EventBridge --> Lambda --> Audit
+    subgraph RemediationEngine ["3. Defense Zero-Trust & FinOps Operator"]
+        OPA["OPA / Rego Zero-Trust Gate<br/>Non-Root UID 10001 / ReadOnlyRootFS"]
+        Operator["Cloud Asset Lifecycle Operator<br/>TLS Renewal & FinOps Orphan Scanner"]
+        Audit["Structured Security Dossiers & Infracost PR Diff"]
+        OPA --> Operator --> Audit
     end
 
-    subgraph ControlPlanes ["4. Serverless Control Planes & Observability"]
+    subgraph ControlPlanes ["4. Serverless Control Planes & Interactive Dashboards"]
+        Pages["Live GitHub Pages Analytics<br/>Ghost Job Engine & UAP Radar"]
         DBX["Databricks Apps (fys-matching-app)<br/>Serverless Compute ($0 Idle Run-Rate)"]
-        Streamlit["Streamlit Community Cloud (24/7 Free)"]
-        Metrics["Live 4-Card Usage Telemetry Engine"]
-        Gold --> DBX & Streamlit & Metrics
+        Streamlit["Streamlit Live Operations Gateway"]
+        Gold --> Pages & DBX & Streamlit
     end
 ```
 
@@ -49,101 +54,79 @@ flowchart TD
 
 ## 🚀 Pinned Flagship Projects
 
-### 1. [UAP Sightings Data Lakehouse & Ingestion Pipeline](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
-* **Core Problem:** Unidentified Aerial Phenomena (UAP) sensor feeds, military records, and public sighting databases are fragmented across incompatible formats, making longitudinal analysis difficult.
-* **Architectural Solution:**
-  * **Databricks Medallion Architecture (Bronze ➔ Silver ➔ Gold):** End-to-end ingestion pipeline unwrapping raw multi-source JSON into Bronze Delta tables, normalizing 75 years of temporal/spatial data into Silver, and aggregating 5 Gold business intelligence tables.
-  * **Multi-Source Parallel Scraping Engine:** Concurrent ingestion across Kaggle NUFORC, AARO DoD Declassified, NASA Science, and HuggingFace with SHA-256 deduplication and synthetic fallback.
-  * **Production Containerization & Kubernetes:** Multi-stage Docker container with non-root security context (`uapuser:10001`), scheduled Kubernetes `batch/v1 CronJob`, and FastAPI telemetry microservice.
-  * **Interactive Geospatial Dashboard:** Live web visualization featuring 1,005 plotted cluster points, shape taxonomy breakdowns, and state-by-state heatmaps.
-* **Live Deployment:** [UAP Live Intelligence Dashboard on GitHub Pages](https://freefades2black.github.io/uap-scraper-pipeline/)
+### 1. [⚡ Multi-Cloud Edge Telemetry & Analytical Lakehouse](https://github.com/FreeFades2Black/edge-telemetry-lakehouse)
+[![CI/CD Matrix Gate](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions/workflows/ci.yml/badge.svg)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions/workflows/ci.yml)
+[![Nightly Synthetic Ingestion](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions/workflows/synthetic_injector_cron.yml/badge.svg)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions/workflows/synthetic_injector_cron.yml)
+* **Target Audience:** BMW Manufacturing, Michelin, GE Vernova, industrial IoT platform teams.
+* **Core Problem:** Ingest high-throughput sensor telemetry, process micro-batches, and automate industrial anomaly detection.
+* **Key Innovations:**
+  * **Automated Data Quality Gate:** Evaluates schema conformance, range validity, and temporal clock drift, scoring records 0–100% and routing malformed records to a quarantine DLQ before Silver promotion.
+  * **ISO 10816 Vibration Anomaly Engine:** Real-time statistical detector identifying bearing cavitation and thermal runaway across AMR robotics, curing presses, and HA gas turbines.
+  * **Nightly Automated Ingestion:** Scheduled GitHub Actions workflow injecting synthetic telemetry batches nightly at 02:00 UTC.
+  * **2-Minute LocalStack Sandbox:** Reproducible local execution via `make init`, `make test`, and `make run-local`.
 
 ---
 
-### 2. [For Your Service — Enterprise Lakehouse & Neural Vector Matching Engine](https://github.com/For-Your-Service/For-Your-Service)
-* **Core Problem:** Military service records and combat/technical leadership sit in unstructured PDFs that civilian ATS filters reject.
-* **Architectural Solution:**
-  * **Lakehouse Medallion Pipeline:** Distributed PySpark and Delta Lake engine parsing raw operational payloads into structured Silver records and Gold vector embeddings (`@pandas_udf` with `all-MiniLM-L6-v2`).
-  * **Databricks Unity Catalog:** Enforces automated column-level lineage, fine-grained RBAC/ABAC security, and multi-tenant isolation.
-  * **Serverless Control Plane:** Live Streamlit matching application deployed serverless on Databricks Apps with dynamic proxy routing (`$DATABRICKS_APP_PORT`).
-  * **Zero-Cost Edge Offload:** Offloaded heavy scraping and initial ETL to local Omarchy Linux edge nodes (14-core Intel CPU / RTX 4050) to run cloud lakehouse infrastructure at $0.00 idle cost.
-* **Live Deployment:** [fys-matching-app on Databricks](https://fys-matching-app-7474643734871839.aws.databricksapps.com)
+### 2. [🛡️ Defense-Grade GitOps Landing Zone & DevSecOps Pipeline](https://github.com/FreeFades2Black/defense-gitops-landing-zone)
+[![Gunslinger Precision CI Gate](https://github.com/FreeFades2Black/defense-gitops-landing-zone/actions/workflows/revolver-pipeline.yml/badge.svg)](https://github.com/FreeFades2Black/defense-gitops-landing-zone/actions/workflows/revolver-pipeline.yml)
+[![Compliance Standards](https://img.shields.io/badge/Compliance-NIST%20800--53%20%7C%20CIS%20v1.8-blue?style=flat-square&logo=shield&logoColor=white)](https://github.com/FreeFades2Black/defense-gitops-landing-zone)
+* **Target Audience:** HII Mission Technologies, Nightwing, defense industrial base contractors, enterprise FinTech.
+* **Core Problem:** Provision hardened Kubernetes / ECS clusters conforming to CIS Benchmarks and DoD DevSecOps zero-trust gates.
+* **Key Innovations:**
+  * **Hardened Terraform Landing Zone:** KMS envelope encryption for Kubernetes secrets, private-only control plane, IMDSv2 enforced, and encrypted VPC Flow Logs.
+  * **Open Policy Agent (OPA / Rego):** Zero-trust admission constraints enforcing unprivileged non-root execution (UID 10001), read-only root filesystems, and strict CPU/memory limits.
+  * **The 4-Chamber Gunslinger Pipeline:** Multi-gate CI/CD workflow executing SAST, Trivy container scans, Checkov IaC audits, Infracost PR cost diffs, and automated SBOM generation.
 
 ---
 
-### 3. [Enterprise Multi-Cloud GitOps & Zero-Trust Pipeline](https://github.com/FreeFades2Black/enterprise-multicloud-gitops-zerotrust)
-* **Core Problem:** Multi-cloud Kubernetes clusters across AWS and GCP suffer from configuration drift, static credential leakage, and late-stage CIS compliance failures.
-* **Architectural Solution:**
-  * **Modular Terraform IaC:** Reusable multi-cloud provisioning with S3/DynamoDB remote state locking.
-  * **HashiCorp Vault & Cloud KMS:** Dynamic, short-lived tokens eliminating static Kubernetes secret exposure.
-  * **ArgoCD Declarative GitOps:** Automated pull-based cluster synchronization with self-healing reconciliation.
-  * **Policy-as-Code Gatekeeper:** OPA (Open Policy Agent) and Conftest enforcing CIS Kubernetes and Terraform benchmarks in CI/CD.
+### 3. [⚡ Automated Certificate & Cloud Asset Lifecycle Operator](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator)
+[![Fleet Health Audit](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator/actions/workflows/scheduled_health_check.yml/badge.svg)](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator/actions/workflows/scheduled_health_check.yml)
+[![Binaries](https://img.shields.io/badge/Binaries-PyInstaller%20Linux%20%2F%20Windows-amber?style=flat-square&logo=python&logoColor=white)](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator)
+* **Target Audience:** Infrastructure & Platform Engineering teams (World Acceptance, TD SYNNEX).
+* **Core Problem:** Continuous proactive auditing of expiring TLS certificates, orphaned cloud resources, and dormant IAM secrets.
+* **Key Innovations:**
+  * **Proactive TLS/SSL Discovery:** Scans ACM certificates and external endpoints, grading expiration urgency (`CRITICAL <14d`, `EXPIRING_SOON <30d`, `EXPIRED`).
+  * **Orphaned Cloud Asset FinOps Scanner:** Detects unattached EBS volumes, idle Elastic IPs, and stale NAT gateways with automated monthly/annual financial waste calculation.
+  * **IAM Secret Hygiene Analyzer:** Identifies access keys older than 90 days and missing MFA credentials.
+  * **Cross-Platform CLI (`cert-guard`):** Single-binary distribution with Rich terminal tables and JSON/CSV dossier exports.
 
 ---
 
-### 4. [Serverless Cloud Incident Auto-Remediation & Compliance Engine](https://github.com/FreeFades2Black/serverless-cloud-autoremediation-engine)
-* **Core Problem:** Configuration drift and accidental public exposure in cloud accounts create dangerous vulnerability windows when relying on slow 24-hour compliance scans.
-* **Architectural Solution:**
-  * **Sub-Second Event-Driven Remediation:** Intercepts CloudTrail mutations via AWS EventBridge and executes least-privilege AWS Lambda handlers in < 1.2 seconds.
-  * **Automated Security Controls:** Instant `PutPublicAccessBlock` enforcement on S3, automatic revocation of `0.0.0.0/0` ingress on ports 22/3389, and unencrypted EBS volume tagging.
-  * **Audit Logging & Alerting:** Generates structured CloudWatch JSON audit trails and formatted Slack/Teams security alerts.
+### 4. [👻 Ghost Job Intelligence & Medallion Analytics Engine](https://github.com/FreeFades2Black/ghost-job-intel-geospatial-pipeline) • [Live Dashboard](https://freefades2black.github.io/ghost-job-intel-geospatial-pipeline/)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-blue?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/ghost-job-intel-geospatial-pipeline/)
+* **Core Problem:** Uncover phantom job postings, algorithmic repost loops, and hiring velocity across 3,200+ active enterprise requisitions with a special focus on the **Greenville, SC Top 10 Tech Hub**.
+* **Key Innovations:**
+  * **Databricks Multi-Year Longitudinal Trends (2022–2026):** Tracks quarterly hiring velocity recovery across aerospace defense, automotive EV manufacturing, and clinical health tech.
+  * **Statistical Validity Threshold ($N \ge 30$):** Enforces rigorous sample size checks before assigning risk tiers (`HEALTHY <25%`, `ELEVATED 25-44%`, `CRITICAL ≥45%`).
+  * **Interactive Web Visualizer:** Requisition drilldown modals, department stale progress bars, Leaflet geospatial hub radar map, and one-click executive audit CSV exports.
 
 ---
 
-### 5. [Universal Resume Normalization & ATS Extraction Pipeline](https://github.com/FreeFades2Black/universal-resume-pipeline)
-* **Core Problem:** Unstructured resumes across PDF/DOCX formats suffer from multi-column parsing failures, keyword stripping, and manual re-entry across ATS portals (Greenhouse, Lever, Workday).
-* **Architectural Solution:**
-  * **Schema-Enforced Normalization:** Robust extraction engine utilizing Pydantic schemas to validate and normalize arbitrary technical resumes into standard JSON.
-  * **Zero-Cost Parsing Engine:** 100% local, offline extraction (`pypdf`, `python-docx`) without recurring third-party LLM API dependencies.
-  * **Automated Test Coverage:** Comprehensive pytest test suite validating email, phone, security clearance, and skill extraction accuracy.
+### 5. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+[![Live Intelligence Radar](https://img.shields.io/badge/Live%20Radar-GitHub%20Pages-purple?style=flat-square&logo=radar&logoColor=white)](https://freefades2black.github.io/uap-scraper-pipeline/)
+* **Core Problem:** Unify fragmented aerial sensor feeds and historical sighting archives from 1480 BC to Present.
+* **Key Innovations:**
+  * **Chronological Timeline & Historical Context:** Compares ancient sightings with major historical milestones (Battle of Megiddo, Colosseum construction, Rosetta Stone, Roswell 1947).
+  * **Lakehouse Medallion Pipeline:** Ingests 1,026+ global records with full coordinate geocoding, hover tooltips, and shape taxonomy analytics.
 
 ---
 
-### 6. [Omarchy Linux Antigravity Bootstrap & System Provenance Engine](https://github.com/FreeFades2Black/omarchy-antigravity-bootstrap)
-* **Core Problem:** Setting up low-latency, hardened Linux development workstations with automated agentic AI workflows and system health healing is time-consuming and fragile.
-* **Architectural Solution:**
-  * **305-Commit Automated Toolchain:** Complete step-by-step automation provisioning Arch Linux on ASUS ROG Flow Z13 convertible hardware.
-  * **System Healing & Optimization:** Automated systemd-resolved DNS recovery, 8GB swapfile allocation, weekly NVMe SSD TRIM scheduling (`fstrim.timer`), and glassmorphic Hyprland UI orchestration.
-  * **Autonomous AI Integration:** Native deployment of Google Antigravity (`agy`) with global hotkey (<kbd>Super</kbd> + <kbd>A</kbd>) and encrypted SSH pair-programming orchestration.
-
----
-
-## 🛠️ Core Competencies & Technical Stack
+## 🛠️ Technical Competency & Tooling Matrix
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Cloud & Lakehouse Platforms** | Databricks Lakehouse, Delta Lake, Unity Catalog, AWS (S3, Lambda, EventBridge, IAM, KMS), GCP (GKE, BigQuery, GCS), Azure |
-| **DevSecOps & Orchestration** | Kubernetes (EKS/GKE), Helm 3, Istio Service Mesh, ArgoCD, Docker, Terraform / OpenTofu, HashiCorp Vault, GitHub Actions |
-| **Data Engineering & Streaming** | Apache Spark, PySpark, Auto Loader, Structured Streaming, Change Data Feed (CDC), Pandas UDFs, Delta Sharing |
-| **Security & Compliance** | Zero-Trust Architecture, Strict mTLS, Open Policy Agent (OPA), Conftest, Trivy, IAM Least-Privilege, CIS Benchmarks |
-| **Languages & Toolchains** | Python 3.11/3.12/3.14, SQL, Bash / Shell, PowerShell, REST APIs, FastAPI, Streamlit, Git |
+| **Cloud Platforms** | Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure |
+| **Data & AI Lakehouse** | Databricks, Apache Spark / PySpark, Delta Lake, Unity Catalog, HuggingFace, Pandas, Parquet |
+| **Infrastructure as Code** | Terraform, OpenTofu, Terragrunt, AWS CloudFormation, LocalStack |
+| **Containers & Orchestration** | Kubernetes (EKS/GKE), Docker, Helm 3, ArgoCD, containerd |
+| **Zero-Trust & DevSecOps** | Open Policy Agent (OPA/Rego), Checkov, Trivy, Infracost, HashiCorp Vault, AWS KMS, IAM |
+| **Languages & Scripting** | Python (PySpark, FastAPI, Pydantic, Typer), SQL, Bash / Shell, PowerShell |
+| **CI/CD & Observability** | GitHub Actions, Prometheus, Grafana, CloudWatch, Datadog |
 
 ---
 
-## 📜 Education & Certifications
+## 📬 Connect & Collaborate
 
-* **Bachelor of Science in Cybersecurity** — American Military University (2022)
-* **Associate of Arts in Computer Programming Specialist** — Northwest Florida State College
-* **AWS Certified Cloud Practitioner** — Amazon Web Services
-* **AWS DevOps Accelerator Program** — SkillStorm / AWS Professional Track
-* **Microsoft Certified: Azure Fundamentals (AZ-900)** — Microsoft
-* **Special Forces Intelligence Sergeant Course (18F)** — U.S. Army Special Operations Center of Excellence
-* **Special Forces Advanced Reconnaissance, Target Analysis, and Exploitation (SFARTAETC)** — U.S. Army Special Operations
-
----
-
-## 🔍 Internal Code Architecture & Comprehensive Inline Documentation
-
-> **Comprehensive Codebase Documentation Audit Completed (2026)**
-> Every core module, function, class, and critical execution path across this repository has been audited and enriched with detailed internal inline comments (`# ...`) and comprehensive docstrings. Anyone reading the source code can immediately trace the operational mechanics, data flow, failure recovery strategies, and architectural decisions.
-
-### 🧩 Key Codebase Modules & Internal Mechanics Walkthrough
-
-| File / Component | Purpose & Internal Mechanics |
-| :--- | :--- |
-| [`README.md`](README.md) | Executive architectural overview of UAP Lakehouse, GitOps Zero-Trust, and Automated Cloud Engines. |
-
-### 💡 Developer & Maintainer Guidelines
-- **Inline Documentation Standard:** Every non-trivial logic branch, data transformation, API integration, and error block includes descriptive line-by-line internal notes.
-- **Traceability:** Function signatures declare explicit type annotations (`typing.Dict`, `typing.List`, `typing.Optional`) and descriptive parameter/return docstrings.
-- **Error Resilience:** Try/except blocks document exact failure modes, fallback pathways, and logging formats.
+* **Email:** [whall4.wh@gmail.com](mailto:whall4.wh@gmail.com)
+* **LinkedIn:** [linkedin.com/in/william-free-hall](https://linkedin.com/in/william-free-hall)
+* **GitHub Enterprise:** [github.com/For-Your-Service](https://github.com/For-Your-Service)
