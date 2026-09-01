@@ -54,9 +54,10 @@ flowchart TD
 
 ## 🚀 Pinned Flagship Projects
 
-### 1. [⚡ Multi-Cloud Edge Telemetry & Analytical Lakehouse](https://github.com/FreeFades2Black/edge-telemetry-lakehouse)
-[![CI/CD Matrix Gate](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions/workflows/ci.yml/badge.svg)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions/workflows/ci.yml)
-[![Nightly Synthetic Ingestion](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions/workflows/synthetic_injector_cron.yml/badge.svg)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions/workflows/synthetic_injector_cron.yml)
+### 1. [⚡ Multi-Cloud Edge Telemetry & Analytical Lakehouse](https://github.com/FreeFades2Black/edge-telemetry-lakehouse) • [Live Dashboard](https://freefades2black.github.io/edge-telemetry-lakehouse/)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Scorecard-GitHub%20Pages-2ea44f?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/edge-telemetry-lakehouse/)
+[![Data Pipeline](https://img.shields.io/github/actions/workflow/status/FreeFades2Black/edge-telemetry-lakehouse/trail-dashboard-deploy.yml?label=Pipeline%20Run&style=flat-square)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions)
+[![Quality Gate](https://img.shields.io/badge/Data_Quality-100%25_Clean-blue?style=flat-square)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse)
 * **Target Audience:** BMW Manufacturing, Michelin, GE Vernova, industrial IoT platform teams.
 * **Core Problem:** Ingest high-throughput sensor telemetry, process micro-batches, and automate industrial anomaly detection.
 * **Key Innovations:**
