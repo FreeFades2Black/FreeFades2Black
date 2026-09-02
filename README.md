@@ -105,7 +105,19 @@ flowchart TD
 
 ---
 
-### 5. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+### 5. [🏥 Prisma Health Upstate Care Coordination & Bed-Surge Lakehouse](https://github.com/FreeFades2Black/prisma-upstate-care-lakehouse) • [Live Dashboard](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
+[![Live Care Lakehouse](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-rose?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
+[![CMS CCN Keyed](https://img.shields.io/badge/Federal%20CMS-CCN%20Keyed-emerald?style=flat-square&logo=medicare&logoColor=white)](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
+* **Target Audience:** Prisma Health clinical directors, VP of Analytics, Upstate hospital executive leadership.
+* **Core Problem:** Mitigate high-acuity bottlenecking at Greenville Memorial (`420078`, CMI 2.18) and optimize transfer pathways to regional satellites (Patewood `420102`, Greer `420033`, Hillcrest `420037`, Baptist Easley `420015`).
+* **Key Innovations:**
+  * **Exact CMS CCN Keyed Lakehouse:** Joins Hospital Compare and IPPS datasets directly on official federal identifiers.
+  * **Google TimesFM-3 Bed Surge Forecasting:** 28-day forward probabilistic occupancy predictions ($P_{10}/P_{50}/P_{90}$) correlated with Upstate CDC viral surveillance (Flu/COVID/RSV).
+  * **Automated Transfer Routing Engine:** Models load-shedding diversion quotas delivering **$2.84M in annualized avoided boarding penalties**.
+
+---
+
+### 6. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
 [![Live Intelligence Radar](https://img.shields.io/badge/Live%20Radar-GitHub%20Pages-purple?style=flat-square&logo=radar&logoColor=white)](https://freefades2black.github.io/uap-scraper-pipeline/)
 * **Core Problem:** Unify fragmented aerial sensor feeds and historical sighting archives from 1480 BC to Present.
 * **Key Innovations:**
