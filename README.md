@@ -4,6 +4,8 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=FreeFades2Black&color=blueviolet&style=for-the-badge)](https://github.com/FreeFades2Black)
 [![GitHub Repos](https://img.shields.io/badge/Flagship%20Portfolio-Production%20Verified-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FreeFades2Black)
+[![TimesFM-3 AI Engine](https://img.shields.io/badge/AI%20Foundation-Google%20TimesFM--3-purple?style=for-the-badge&logo=google&logoColor=white)](https://github.com/FreeFades2Black)
+[![Omarchy Edge Node](https://img.shields.io/badge/Edge%20Compute-Omarchy%20Arch%20Linux%207.1.9-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)](https://github.com/FreeFades2Black)
 [![Databricks SME](https://img.shields.io/badge/Specialization-Databricks%20%7C%20PySpark%20%7C%20Delta%20Lake-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/FreeFades2Black)
 [![Zero-Trust DevSecOps](https://img.shields.io/badge/Security-CIS%20v1.8%20%7C%20NIST%20800--53-blue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/FreeFades2Black)
 
