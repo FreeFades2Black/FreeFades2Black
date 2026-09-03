@@ -115,9 +115,19 @@ flowchart TD
   * **Google TimesFM-3 Bed Surge Forecasting:** 28-day forward probabilistic occupancy predictions ($P_{10}/P_{50}/P_{90}$) correlated with Upstate CDC viral surveillance (Flu/COVID/RSV).
   * **Automated Transfer Routing Engine:** Models load-shedding diversion quotas delivering **$2.84M in annualized avoided boarding penalties**.
 
+### 6. [🏎️ BMW Plant Spartanburg Multi-Powertrain Assembly & AIQX Lakehouse](https://github.com/FreeFades2Black/bmw-spartanburg-assembly-lakehouse) • [Live Dashboard](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-blue?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
+[![Shared Line Sequencing](https://img.shields.io/badge/Shared%20Line-ICE%20%7C%20PHEV%20%7C%20BEV-blue?style=flat-square&logo=bmw&logoColor=white)](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
+* **Target Audience:** BMW Group Plant Spartanburg & Plant Woodruff manufacturing engineering, AIQX quality analytics, AWS Cloud Data Hub teams.
+* **Core Problem:** Multi-powertrain sequencing variance across shared ICE/PHEV/BEV lines (>400k vehicles/yr), 15-mile Plant Woodruff 800V battery Just-In-Sequence (JIS) logistics, and high-dimensional Cell-to-Pack scrap.
+* **Key Innovations:**
+  * **AIQX Early Defect Quarantine:** Identifies microscopic bolting torque and thermal adhesive excursions at Station 12, saving **$18,080 per shunted chassis** and avoiding $1.86M in downstream Station 50 teardowns.
+  * **15-Mile Woodruff JIS Shuttle Synchronizer:** Monitors battery shuttle convoy transit and Hall 52 buffer stocks (22 packs / 36 min), maintaining **99.82% sequence parity** to avoid $15,000/min line stoppages.
+  * **Google TimesFM-3 Takt Forecaster:** Predicts 60-minute forward takt time volatility and downstream starvation with an **18.2-minute advance rebalancing lead window**.
+
 ---
 
-### 6. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+### 7. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
 [![Live Intelligence Radar](https://img.shields.io/badge/Live%20Radar-GitHub%20Pages-purple?style=flat-square&logo=radar&logoColor=white)](https://freefades2black.github.io/uap-scraper-pipeline/)
 * **Core Problem:** Unify fragmented aerial sensor feeds and historical sighting archives from 1480 BC to Present.
 * **Key Innovations:**
