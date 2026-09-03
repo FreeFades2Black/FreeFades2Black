@@ -125,9 +125,20 @@ flowchart TD
   * **15-Mile Woodruff JIS Shuttle Synchronizer:** Monitors battery shuttle convoy transit and Hall 52 buffer stocks (22 packs / 36 min), maintaining **99.82% sequence parity** to avoid $15,000/min line stoppages.
   * **Google TimesFM-3 Takt Forecaster:** Predicts 60-minute forward takt time volatility and downstream starvation with an **18.2-minute advance rebalancing lead window**.
 
+### 7. [🏛️ Greenville, SC Infrastructure & Growth Analytics Lakehouse](https://github.com/FreeFades2Black/greenville-infrastructure-lakehouse) • [Live Dashboard](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-emerald?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
+[![7-Domain Ingestion Matrix](https://img.shields.io/badge/7--Domain%20Matrix-Municipal%20Lakehouse-blue?style=flat-square&logo=civicrm&logoColor=white)](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
+* **Target Audience:** Greenville County Council, City of Greenville Planning Commission, SCDOT District 3, Greenville Water, and Duke Energy Carolinas leadership.
+* **Core Problem:** Mitigate structural capacity friction across land development, utility trunklines, and transportation corridors driven by rapid Upstate SC economic influx.
+* **Key Innovations:**
+  * **7-Domain Municipal Data Matrix:** Ingests municipal GIS, SCDOT 511, USGS water gauges, EIA Duke Energy loads, and FRA rail feeds into a Databricks PySpark Medallion Delta Lake.
+  * **Cross-Domain Bottleneck Diagnostics:** Pinpoints spatial divergence (+31.4% South County sprawl vs water lines), rail decoupling (48,200 annual truck delay hours at Inland Port Greer), and summer substation heat margins (8.2%).
+  * **Google TimesFM-3 Foundation Forecasting:** 52-week forward projections with calibrated $P_{10}/P_{50}/P_{90}$ quantile cones predicting seasonal traffic and grid peaks with a **2.14% MAPE**.
+  * **Counterfactual Capital Policy Simulator:** Proves **$38.5M in avoided CIP capital costs** via Targeted Urban Growth Boundaries, a 34% drop in arterial intersection queuing, and 15% peak grid shaving.
+
 ---
 
-### 7. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+### 8. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
 [![Live Intelligence Radar](https://img.shields.io/badge/Live%20Radar-GitHub%20Pages-purple?style=flat-square&logo=radar&logoColor=white)](https://freefades2black.github.io/uap-scraper-pipeline/)
 * **Core Problem:** Unify fragmented aerial sensor feeds and historical sighting archives from 1480 BC to Present.
 * **Key Innovations:**
