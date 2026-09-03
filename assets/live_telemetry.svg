@@ -58,7 +58,7 @@
     <!-- Prominent Date & Time of Last Update Banner -->
     <rect x="35" y="112" width="440" height="22" rx="4" class="badge-box"/>
     <text x="45" y="127" class="hud-data">LAST SYNCED : </text>
-    <text x="155" y="127" class="hud-time">Sep 03, 2026 | 02:40:56 UTC</text>
+    <text x="155" y="127" class="hud-time">Sep 03, 2026 | 10:35:11 UTC</text>
     
     <!-- Oscilloscope Waveform Right Column -->
     <rect x="505" y="16" width="325" height="113" rx="4" fill="#070a0f" stroke="#21262d" stroke-width="1"/>
