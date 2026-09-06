@@ -136,9 +136,20 @@ flowchart TD
   * **Google TimesFM-3 Foundation Forecasting:** 52-week forward projections with calibrated $P_{10}/P_{50}/P_{90}$ quantile cones predicting seasonal traffic and grid peaks with a **2.14% MAPE**.
   * **Counterfactual Capital Policy Simulator:** Proves **$38.5M in avoided CIP capital costs** via Targeted Urban Growth Boundaries, a 34% drop in arterial intersection queuing, and 15% peak grid shaving.
 
+### 8. [🏥 Mosaic Healthcare Multi-Cloud Platform](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
+[![Multi-Cloud Architecture](https://img.shields.io/badge/Architecture-AWS%20%2B%20Azure%20%2B%20Databricks-blue?style=flat-square&logo=databricks&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
+[![HIPAA HITRUST](https://img.shields.io/badge/Compliance-HIPAA%20%7C%20HITRUST-emerald?style=flat-square&logo=shield&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
+[![Terraform IaC](https://img.shields.io/badge/IaC-Terraform%20v1.6%2B-purple?style=flat-square&logo=terraform&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
+* **Target Audience:** Enterprise healthcare cloud engineering, CISO / HIPAA compliance officers, and Databricks data governance leads.
+* **Core Problem:** Establish an automated, zero-trust Infrastructure-as-Code (IaC) baseline unifying AWS compute/storage, Azure VNet Injection, and Databricks Unity Catalog data governance.
+* **Key Innovations:**
+  * **Unified Multi-Cloud Foundation:** Provisions customer-managed AWS E-VPC, S3 Medallion storage, Azure VNet Injection, and ADLS Gen2 Hierarchical DFS via modular Terraform.
+  * **HIPAA/HITRUST Zero-Trust Security:** Enforces SSE-KMS with Customer Managed Keys, strict 4/4 S3 public access blocks, and 7-year (2,555-day) immutable audit retention.
+  * **Databricks Unity Catalog Central Governance:** Configures Metastore data access, IAM cross-account storage credentials, and multi-tier clinical catalogs (`mosaic_bronze`, `mosaic_silver`, `mosaic_gold`).
+
 ---
 
-### 8. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+### 9. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
 [![Live Intelligence Radar](https://img.shields.io/badge/Live%20Radar-GitHub%20Pages-purple?style=flat-square&logo=radar&logoColor=white)](https://freefades2black.github.io/uap-scraper-pipeline/)
 * **Core Problem:** Unify fragmented aerial sensor feeds and historical sighting archives from 1480 BC to Present.
 * **Key Innovations:**
