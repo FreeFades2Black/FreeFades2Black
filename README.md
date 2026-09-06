@@ -149,7 +149,23 @@ flowchart TD
 
 ---
 
-### 9. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+### 9. [🏛️ Mosaic Health Cloud Architecture & M&A Governance Portal](https://github.com/FreeFades2Black/mosaic-health-cloud-architecture) • [Live Portal](https://freefades2black.github.io/mosaic-health-cloud-architecture/)
+[![Live Architecture Portal](https://img.shields.io/badge/Live%20Portal-GitHub%20Pages-teal?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/)
+[![Compliance](https://img.shields.io/badge/Compliance-HITRUST%20CSF%20v11%20%7C%20HIPAA-purple?style=flat-square&logo=shield&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/compliance-hitrust/)
+[![Azure Landing Zone](https://img.shields.io/badge/Architecture-Azure%20Landing%20Zone%20vWAN-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/landing-zone/)
+[![Containerized](https://img.shields.io/badge/Docker-Multi--Stage%20Alpine-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/FreeFades2Black/mosaic-health-cloud-architecture/blob/main/Dockerfile)
+* **Target Audience:** Enterprise Architecture Review Board (ARB), CISO / HIPAA Compliance Directors, Cloud Infrastructure Squads, and Hospital M&A Teams.
+* **Core Problem:** Standardize cloud foundation architecture, multi-region transit networking, and zero-trust data governance across 140+ acquired clinics and acute medical centers under strict HITRUST CSF v11 and HIPAA mandates.
+* **Key Innovations:**
+  * **Interactive GitHub Pages Architecture Portal:** Single source of truth with live-rendered Mermaid.js topology diagrams, dark/light theme toggle, and searchable technical matrices.
+  * **Azure Virtual WAN & Secured Hub Backbone:** 140+ branch clinic ingress via dual IPsec/ExpressRoute circuits with centralized Azure Firewall Premium IDPS inspection and private endpoint routing intent.
+  * **90-Day M&A Due Diligence & Wave Migration Engine:** 8-pillar technical debt discovery audit, 5-R workload rationalization, pre-flight gate criteria, and automated metric rollback triggers (latency > 45ms, DB replication lag > 120s).
+  * **FIPS 140-2 Level 3 HSM Cryptography:** Production-grade `gunslinger-secure-vault` Terraform module enforcing RSA-4096 Customer-Managed Keys (CMK) with automated 365-day rotation and Sentinel SIEM telemetry.
+  * **Multi-Cloud Rosetta Stone & ADR Registry:** Comprehensive AWS vs GCP vs Azure parity translation and formalized Architecture Decision Records (ADR-001, ADR-002, ADR-003).
+
+---
+
+### 10. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
 [![Live Intelligence Radar](https://img.shields.io/badge/Live%20Radar-GitHub%20Pages-purple?style=flat-square&logo=radar&logoColor=white)](https://freefades2black.github.io/uap-scraper-pipeline/)
 * **Core Problem:** Unify fragmented aerial sensor feeds and historical sighting archives from 1480 BC to Present.
 * **Key Innovations:**
