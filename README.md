@@ -5,6 +5,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=FreeFades2Black&color=blueviolet&style=for-the-badge)](https://github.com/FreeFades2Black)
 [![GitHub Repos](https://img.shields.io/badge/Flagship%20Portfolio-Production%20Verified-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FreeFades2Black)
 [![TimesFM-3 AI Engine](https://img.shields.io/badge/AI%20Foundation-Google%20TimesFM--3-purple?style=for-the-badge&logo=google&logoColor=white)](https://github.com/FreeFades2Black)
+[![Microsoft AI Foundry](https://img.shields.io/badge/Responsible%20AI-Microsoft%20AI%20Foundry-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://github.com/FreeFades2Black/foundry-responsible-agent-sentinel)
 [![Omarchy Edge Node](https://img.shields.io/badge/Edge%20Compute-Omarchy%20Arch%20Linux%207.1.9-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)](https://github.com/FreeFades2Black)
 [![Databricks SME](https://img.shields.io/badge/Specialization-Databricks%20%7C%20PySpark%20%7C%20Delta%20Lake-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/FreeFades2Black)
 [![Zero-Trust DevSecOps](https://img.shields.io/badge/Security-CIS%20v1.8%20%7C%20NIST%20800--53-blue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/FreeFades2Black)
@@ -13,9 +14,9 @@
 
 ## 🎯 Executive Summary
 
-Principal Cloud & AI Architect, DevSecOps Lead, and Technical Leader with over 20 years of experience transitioning high-stakes operational leadership into architecting resilient, multi-cloud enterprise lakehouse environments and zero-trust microservice meshes across **AWS, GCP, Databricks, and Kubernetes**.
+Principal Cloud & AI Architect, DevSecOps Lead, and Technical Leader with over 20 years of experience transitioning high-stakes operational leadership into architecting resilient, multi-cloud enterprise lakehouse environments and zero-trust microservice meshes across **Microsoft Azure, AWS, GCP, Databricks, and Kubernetes**.
 
-Veteran U.S. Army Special Forces Intelligence Sergeant (18F) and Team Sergeant (18Z) combining elite operational discipline with deep technical execution in **high-throughput PySpark data pipelines, Delta Lake Medallion architectures, modular Terraform IaC, Istio strict mTLS zero-trust meshes, and automated CI/CD governance**.
+Veteran U.S. Army Special Forces Intelligence Sergeant (18F) and Team Sergeant (18Z) combining elite operational discipline with deep technical execution in **Microsoft Foundry Responsible AI (RAI) guardrails, modular Terraform IaC, high-throughput PySpark data pipelines, Delta Lake Medallion architectures, modular Terraform IaC, Istio strict mTLS zero-trust meshes, and automated CI/CD governance**.
 
 ---
 
@@ -56,7 +57,22 @@ flowchart TD
 
 ## 🚀 Pinned Flagship Projects
 
-### 1. [⚡ Multi-Cloud Edge Telemetry & Analytical Lakehouse](https://github.com/FreeFades2Black/edge-telemetry-lakehouse) • [Live Dashboard](https://freefades2black.github.io/edge-telemetry-lakehouse/)
+### 1. [🛡️ Microsoft Foundry Responsible Agent Sentinel — Audited Retrieval & Secure Action](https://github.com/FreeFades2Black/foundry-responsible-agent-sentinel)
+[![RAI Eval Gate](https://img.shields.io/github/actions/workflow/status/FreeFades2Black/foundry-responsible-agent-sentinel/rai-eval-gate.yml?label=RAI%20Eval%20Gate&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/FreeFades2Black/foundry-responsible-agent-sentinel/actions)
+[![IaC Terraform](https://img.shields.io/badge/IaC-Terraform%20Modular%20Architecture-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/FreeFades2Black/foundry-responsible-agent-sentinel/tree/main/terraform)
+[![Azure AI Foundry](https://img.shields.io/badge/Azure-AI%20Foundry%20%2B%20Search-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://github.com/FreeFades2Black/foundry-responsible-agent-sentinel)
+[![Guardrails](https://img.shields.io/badge/Guardrails-4--Point%20Multi--Modal-success?style=flat-square&logo=shield&logoColor=white)](https://github.com/FreeFades2Black/foundry-responsible-agent-sentinel)
+* **Target Audience:** Enterprise CISO, AI Ethics Review Boards, Azure Cloud Architects, and Lead Machine Learning Engineers.
+* **Core Problem:** Enterprise autonomous LLM agents operating against proprietary knowledge bases face prompt-injection jailbreaks, unintended tool privilege escalation, and sensitive corporate data leakage without rigorous, automated Responsible AI (RAI) guardrails.
+* **Key Innovations:**
+  * **4-Point Multi-Modal Guardrail Engine:** Pre-execution input sanitizer, prompt-injection defense with data spotlighting delimiters (`<<<retrieved_untrusted_data>>>`), runtime tool-policy gatekeeper, and post-execution output leak prevention.
+  * **Modular Enterprise Terraform IaC:** Complete modular Azure infrastructure (`terraform/modules/{networking,security_identity,ai_foundry,ai_search,rai_policy}`) provisioning private endpoints, CMK encryption, managed identity RBAC, and AI Search Semantic Ranker.
+  * **Automated Adversarial Red-Team CI/CD Gate:** GitHub Actions pipeline (`rai-eval-gate.yml`) evaluating groundedness, safety, and prompt-injection resistance against strict quality thresholds.
+  * **Audit Logging & Telemetry:** Full execution tracing with SHA-256 tamper-evident transaction logs.
+
+---
+
+### 2. [⚡ Multi-Cloud Edge Telemetry & Analytical Lakehouse](https://github.com/FreeFades2Black/edge-telemetry-lakehouse) • [Live Dashboard](https://freefades2black.github.io/edge-telemetry-lakehouse/)
 [![Live Dashboard](https://img.shields.io/badge/Live%20Scorecard-GitHub%20Pages-2ea44f?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/edge-telemetry-lakehouse/)
 [![Data Pipeline](https://img.shields.io/github/actions/workflow/status/FreeFades2Black/edge-telemetry-lakehouse/trail-dashboard-deploy.yml?label=Pipeline%20Run&style=flat-square)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions)
 [![Quality Gate](https://img.shields.io/badge/Data_Quality-100%25_Clean-blue?style=flat-square)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse)
@@ -70,7 +86,7 @@ flowchart TD
 
 ---
 
-### 2. [🛡️ Defense-Grade GitOps Landing Zone & DevSecOps Pipeline](https://github.com/FreeFades2Black/defense-gitops-landing-zone)
+### 3. [🛡️ Defense-Grade GitOps Landing Zone & DevSecOps Pipeline](https://github.com/FreeFades2Black/defense-gitops-landing-zone)
 [![Gunslinger Precision CI Gate](https://github.com/FreeFades2Black/defense-gitops-landing-zone/actions/workflows/revolver-pipeline.yml/badge.svg)](https://github.com/FreeFades2Black/defense-gitops-landing-zone/actions/workflows/revolver-pipeline.yml)
 [![Compliance Standards](https://img.shields.io/badge/Compliance-NIST%20800--53%20%7C%20CIS%20v1.8-blue?style=flat-square&logo=shield&logoColor=white)](https://github.com/FreeFades2Black/defense-gitops-landing-zone)
 * **Target Audience:** HII Mission Technologies, Nightwing, defense industrial base contractors, enterprise FinTech.
@@ -82,7 +98,7 @@ flowchart TD
 
 ---
 
-### 3. [⚡ Automated Certificate & Cloud Asset Lifecycle Operator](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator)
+### 4. [⚡ Automated Certificate & Cloud Asset Lifecycle Operator](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator)
 [![Fleet Health Audit](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator/actions/workflows/scheduled_health_check.yml/badge.svg)](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator/actions/workflows/scheduled_health_check.yml)
 [![Binaries](https://img.shields.io/badge/Binaries-PyInstaller%20Linux%20%2F%20Windows-amber?style=flat-square&logo=python&logoColor=white)](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator)
 * **Target Audience:** Infrastructure & Platform Engineering teams (World Acceptance, TD SYNNEX).
@@ -95,7 +111,7 @@ flowchart TD
 
 ---
 
-### 4. [👻 Ghost Job Intelligence & Medallion Analytics Engine](https://github.com/FreeFades2Black/ghost-job-intel-geospatial-pipeline) • [Live Dashboard](https://freefades2black.github.io/ghost-job-intel-geospatial-pipeline/)
+### 5. [👻 Ghost Job Intelligence & Medallion Analytics Engine](https://github.com/FreeFades2Black/ghost-job-intel-geospatial-pipeline) • [Live Dashboard](https://freefades2black.github.io/ghost-job-intel-geospatial-pipeline/)
 [![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-blue?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/ghost-job-intel-geospatial-pipeline/)
 * **Core Problem:** Uncover phantom job postings, algorithmic repost loops, and hiring velocity across 3,200+ active enterprise requisitions with a special focus on the **Greenville, SC Top 10 Tech Hub**.
 * **Key Innovations:**
@@ -105,7 +121,7 @@ flowchart TD
 
 ---
 
-### 5. [🏥 Prisma Health Upstate Care Coordination & Bed-Surge Lakehouse](https://github.com/FreeFades2Black/prisma-upstate-care-lakehouse) • [Live Dashboard](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
+### 6. [🏥 Prisma Health Upstate Care Coordination & Bed-Surge Lakehouse](https://github.com/FreeFades2Black/prisma-upstate-care-lakehouse) • [Live Dashboard](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
 [![Live Care Lakehouse](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-rose?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
 [![CMS CCN Keyed](https://img.shields.io/badge/Federal%20CMS-CCN%20Keyed-emerald?style=flat-square&logo=medicare&logoColor=white)](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
 * **Target Audience:** Prisma Health clinical directors, VP of Analytics, Upstate hospital executive leadership.
@@ -115,7 +131,7 @@ flowchart TD
   * **Google TimesFM-3 Bed Surge Forecasting:** 28-day forward probabilistic occupancy predictions ($P_{10}/P_{50}/P_{90}$) correlated with Upstate CDC viral surveillance (Flu/COVID/RSV).
   * **Automated Transfer Routing Engine:** Models load-shedding diversion quotas delivering **$2.84M in annualized avoided boarding penalties**.
 
-### 6. [🏎️ BMW Plant Spartanburg Multi-Powertrain Assembly & AIQX Lakehouse](https://github.com/FreeFades2Black/bmw-spartanburg-assembly-lakehouse) • [Live Dashboard](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
+### 7. [🏎️ BMW Plant Spartanburg Multi-Powertrain Assembly & AIQX Lakehouse](https://github.com/FreeFades2Black/bmw-spartanburg-assembly-lakehouse) • [Live Dashboard](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
 [![Live Dashboard](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-blue?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
 [![Shared Line Sequencing](https://img.shields.io/badge/Shared%20Line-ICE%20%7C%20PHEV%20%7C%20BEV-blue?style=flat-square&logo=bmw&logoColor=white)](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
 * **Target Audience:** BMW Group Plant Spartanburg & Plant Woodruff manufacturing engineering, AIQX quality analytics, AWS Cloud Data Hub teams.
@@ -125,7 +141,7 @@ flowchart TD
   * **15-Mile Woodruff JIS Shuttle Synchronizer:** Monitors battery shuttle convoy transit and Hall 52 buffer stocks (22 packs / 36 min), maintaining **99.82% sequence parity** to avoid $15,000/min line stoppages.
   * **Google TimesFM-3 Takt Forecaster:** Predicts 60-minute forward takt time volatility and downstream starvation with an **18.2-minute advance rebalancing lead window**.
 
-### 7. [🏛️ Greenville, SC Infrastructure & Growth Analytics Lakehouse](https://github.com/FreeFades2Black/greenville-infrastructure-lakehouse) • [Live Dashboard](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
+### 8. [🏛️ Greenville, SC Infrastructure & Growth Analytics Lakehouse](https://github.com/FreeFades2Black/greenville-infrastructure-lakehouse) • [Live Dashboard](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
 [![Live Dashboard](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-emerald?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
 [![7-Domain Ingestion Matrix](https://img.shields.io/badge/7--Domain%20Matrix-Municipal%20Lakehouse-blue?style=flat-square&logo=civicrm&logoColor=white)](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
 * **Target Audience:** Greenville County Council, City of Greenville Planning Commission, SCDOT District 3, Greenville Water, and Duke Energy Carolinas leadership.
@@ -136,7 +152,7 @@ flowchart TD
   * **Google TimesFM-3 Foundation Forecasting:** 52-week forward projections with calibrated $P_{10}/P_{50}/P_{90}$ quantile cones predicting seasonal traffic and grid peaks with a **2.14% MAPE**.
   * **Counterfactual Capital Policy Simulator:** Proves **$38.5M in avoided CIP capital costs** via Targeted Urban Growth Boundaries, a 34% drop in arterial intersection queuing, and 15% peak grid shaving.
 
-### 8. [🏥 Mosaic Healthcare Multi-Cloud Platform](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
+### 9. [🏥 Mosaic Healthcare Multi-Cloud Platform](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
 [![Multi-Cloud Architecture](https://img.shields.io/badge/Architecture-AWS%20%2B%20Azure%20%2B%20Databricks-blue?style=flat-square&logo=databricks&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
 [![HIPAA HITRUST](https://img.shields.io/badge/Compliance-HIPAA%20%7C%20HITRUST-emerald?style=flat-square&logo=shield&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
 [![Terraform IaC](https://img.shields.io/badge/IaC-Terraform%20v1.6%2B-purple?style=flat-square&logo=terraform&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
@@ -149,7 +165,7 @@ flowchart TD
 
 ---
 
-### 9. [🏛️ Mosaic Health Cloud Architecture & M&A Governance Portal](https://github.com/FreeFades2Black/mosaic-health-cloud-architecture) • [Live Portal](https://freefades2black.github.io/mosaic-health-cloud-architecture/)
+### 10. [🏛️ Mosaic Health Cloud Architecture & M&A Governance Portal](https://github.com/FreeFades2Black/mosaic-health-cloud-architecture) • [Live Portal](https://freefades2black.github.io/mosaic-health-cloud-architecture/)
 [![Live Architecture Portal](https://img.shields.io/badge/Live%20Portal-GitHub%20Pages-teal?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/)
 [![AI Foundry Gate](https://img.shields.io/badge/AI%20Foundry-Model%20Regulation%20Gate-0078D4?style=flat-square&logo=openai&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/compliance-hitrust/ai-foundry-governance/)
 [![Live Build Monitor](https://img.shields.io/badge/Live%20Monitor-Azure%20Build%20Telemetry-blue?style=flat-square&logo=microsoftazure&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/dashboards/azure-build-monitor/)
@@ -168,7 +184,18 @@ flowchart TD
 
 ---
 
-### 10. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+### 11. [🏭 Mosaic Azure AI Model Factory & Enterprise MLOps](https://github.com/FreeFades2Black/mosaic-azure-ai-model-factory)
+[![Model Factory CI](https://img.shields.io/github/actions/workflow/status/FreeFades2Black/mosaic-azure-ai-model-factory/ci.yml?label=Model%20Factory%20CI&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/FreeFades2Black/mosaic-azure-ai-model-factory/actions)
+[![Azure AI Studio](https://img.shields.io/badge/Azure-AI%20Studio%20%2B%20Foundry-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://github.com/FreeFades2Black/mosaic-azure-ai-model-factory)
+[![HIPAA HITRUST](https://img.shields.io/badge/Compliance-HIPAA%20%7C%20HITRUST-emerald?style=flat-square&logo=shield&logoColor=white)](https://github.com/FreeFades2Black/mosaic-azure-ai-model-factory)
+* **Target Audience:** Healthcare AI Engineering, Clinical Data Science Teams, and Enterprise MLOps Leaders.
+* **Core Problem:** Scaling clinical predictive models and foundational LLM deployments across regulated multi-hospital systems while guaranteeing deterministic lineage, zero PHI drift, and compliance gates.
+* **Key Innovations:**
+  * **Standardized Clinical ML Lifecycle:** Automated pipelines for model registration, validation, and deployment to Azure ML endpoints with managed identity access.
+  * **Automated Model Safety & Bias Gate:** Evaluates clinical predictions against demographic parity, precision-recall constraints, and HIPAA PHI sanitization prior to production promotion.
+  * **Private Networking & Customer-Managed Keys:** End-to-end VNet injection and Azure Key Vault CMK encryption ensuring zero exposure on public transit.
+
+### 12. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
 [![Live Intelligence Radar](https://img.shields.io/badge/Live%20Radar-GitHub%20Pages-purple?style=flat-square&logo=radar&logoColor=white)](https://freefades2black.github.io/uap-scraper-pipeline/)
 * **Core Problem:** Unify fragmented aerial sensor feeds and historical sighting archives from 1480 BC to Present.
 * **Key Innovations:**
@@ -181,7 +208,8 @@ flowchart TD
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Cloud Platforms** | Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure |
+| **Enterprise AI & Agentic Systems** | Microsoft AI Foundry, Azure OpenAI (`gpt-4o`), Azure AI Search (Semantic Hybrid), RAI 4-Point Guardrails, Data Spotlighting, Red-Team Adversarial Evaluation, Google TimesFM-3 |
+| **Cloud Platforms** | Microsoft Azure (AI Foundry, Search, Key Vault, VNet), Amazon Web Services (AWS), Google Cloud Platform (GCP) |
 | **Data & AI Lakehouse** | Databricks, Apache Spark / PySpark, Delta Lake, Unity Catalog, HuggingFace, Pandas, Parquet |
 | **Infrastructure as Code** | Terraform, OpenTofu, Terragrunt, AWS CloudFormation, LocalStack |
 | **Containers & Orchestration** | Kubernetes (EKS/GKE), Docker, Helm 3, ArgoCD, containerd |
