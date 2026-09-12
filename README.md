@@ -11,7 +11,7 @@
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 Principal Cloud & AI Architect, DevSecOps Lead, and Technical Leader with over 20 years of experience transitioning high-stakes operational leadership into architecting resilient, multi-cloud enterprise lakehouse environments and zero-trust microservice meshes across **AWS, GCP, Databricks, and Kubernetes**.
 
@@ -19,7 +19,7 @@ Veteran U.S. Army Special Forces Intelligence Sergeant (18F) and Team Sergeant (
 
 ---
 
-## 🏛️ Flagship Enterprise Architecture Showcase
+## Enterprise Architecture Showcase
 
 ```mermaid
 flowchart TD
@@ -54,9 +54,9 @@ flowchart TD
 
 ---
 
-## 🚀 Pinned Flagship Projects
+## Pinned Projects
 
-### 1. [⚡ Multi-Cloud Edge Telemetry & Analytical Lakehouse](https://github.com/FreeFades2Black/edge-telemetry-lakehouse) • [Live Dashboard](https://freefades2black.github.io/edge-telemetry-lakehouse/)
+### 1. [Multi-Cloud Edge Telemetry & Analytical Lakehouse](https://github.com/FreeFades2Black/edge-telemetry-lakehouse) • [Live Dashboard](https://freefades2black.github.io/edge-telemetry-lakehouse/)
 [![Live Dashboard](https://img.shields.io/badge/Live%20Scorecard-GitHub%20Pages-2ea44f?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/edge-telemetry-lakehouse/)
 [![Data Pipeline](https://img.shields.io/github/actions/workflow/status/FreeFades2Black/edge-telemetry-lakehouse/trail-dashboard-deploy.yml?label=Pipeline%20Run&style=flat-square)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse/actions)
 [![Quality Gate](https://img.shields.io/badge/Data_Quality-100%25_Clean-blue?style=flat-square)](https://github.com/FreeFades2Black/edge-telemetry-lakehouse)
@@ -70,7 +70,7 @@ flowchart TD
 
 ---
 
-### 2. [🛡️ Defense-Grade GitOps Landing Zone & DevSecOps Pipeline](https://github.com/FreeFades2Black/defense-gitops-landing-zone)
+### 2. [Defense-Grade GitOps Landing Zone & DevSecOps Pipeline](https://github.com/FreeFades2Black/defense-gitops-landing-zone)
 [![Gunslinger Precision CI Gate](https://github.com/FreeFades2Black/defense-gitops-landing-zone/actions/workflows/revolver-pipeline.yml/badge.svg)](https://github.com/FreeFades2Black/defense-gitops-landing-zone/actions/workflows/revolver-pipeline.yml)
 [![Compliance Standards](https://img.shields.io/badge/Compliance-NIST%20800--53%20%7C%20CIS%20v1.8-blue?style=flat-square&logo=shield&logoColor=white)](https://github.com/FreeFades2Black/defense-gitops-landing-zone)
 * **Target Audience:** HII Mission Technologies, Nightwing, defense industrial base contractors, enterprise FinTech.
@@ -82,7 +82,7 @@ flowchart TD
 
 ---
 
-### 3. [⚡ Automated Certificate & Cloud Asset Lifecycle Operator](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator)
+### 3. [Automated Certificate & Cloud Asset Lifecycle Operator](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator)
 [![Fleet Health Audit](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator/actions/workflows/scheduled_health_check.yml/badge.svg)](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator/actions/workflows/scheduled_health_check.yml)
 [![Binaries](https://img.shields.io/badge/Binaries-PyInstaller%20Linux%20%2F%20Windows-amber?style=flat-square&logo=python&logoColor=white)](https://github.com/FreeFades2Black/cloud-asset-lifecycle-operator)
 * **Target Audience:** Infrastructure & Platform Engineering teams (World Acceptance, TD SYNNEX).
@@ -95,7 +95,7 @@ flowchart TD
 
 ---
 
-### 4. [👻 Ghost Job Intelligence & Medallion Analytics Engine](https://github.com/FreeFades2Black/ghost-job-intel-geospatial-pipeline) • [Live Dashboard](https://freefades2black.github.io/ghost-job-intel-geospatial-pipeline/)
+### 4. [Ghost Job Intelligence & Medallion Analytics Engine](https://github.com/FreeFades2Black/ghost-job-intel-geospatial-pipeline) • [Live Dashboard](https://freefades2black.github.io/ghost-job-intel-geospatial-pipeline/)
 [![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-blue?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/ghost-job-intel-geospatial-pipeline/)
 * **Core Problem:** Uncover phantom job postings, algorithmic repost loops, and hiring velocity across 3,200+ active enterprise requisitions with a special focus on the **Greenville, SC Top 10 Tech Hub**.
 * **Key Innovations:**
@@ -105,7 +105,7 @@ flowchart TD
 
 ---
 
-### 5. [🏥 Prisma Health Upstate Care Coordination & Bed-Surge Lakehouse](https://github.com/FreeFades2Black/prisma-upstate-care-lakehouse) • [Live Dashboard](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
+### 5. [Prisma Health Upstate Care Coordination & Bed-Surge Lakehouse](https://github.com/FreeFades2Black/prisma-upstate-care-lakehouse) • [Live Dashboard](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
 [![Live Care Lakehouse](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-rose?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
 [![CMS CCN Keyed](https://img.shields.io/badge/Federal%20CMS-CCN%20Keyed-emerald?style=flat-square&logo=medicare&logoColor=white)](https://freefades2black.github.io/prisma-upstate-care-lakehouse/)
 * **Target Audience:** Prisma Health clinical directors, VP of Analytics, Upstate hospital executive leadership.
@@ -115,7 +115,7 @@ flowchart TD
   * **Google TimesFM-3 Bed Surge Forecasting:** 28-day forward probabilistic occupancy predictions ($P_{10}/P_{50}/P_{90}$) correlated with Upstate CDC viral surveillance (Flu/COVID/RSV).
   * **Automated Transfer Routing Engine:** Models load-shedding diversion quotas delivering **$2.84M in annualized avoided boarding penalties**.
 
-### 6. [🏎️ BMW Plant Spartanburg Multi-Powertrain Assembly & AIQX Lakehouse](https://github.com/FreeFades2Black/bmw-spartanburg-assembly-lakehouse) • [Live Dashboard](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
+### 6. [BMW Plant Spartanburg Multi-Powertrain Assembly & AIQX Lakehouse](https://github.com/FreeFades2Black/bmw-spartanburg-assembly-lakehouse) • [Live Dashboard](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
 [![Live Dashboard](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-blue?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
 [![Shared Line Sequencing](https://img.shields.io/badge/Shared%20Line-ICE%20%7C%20PHEV%20%7C%20BEV-blue?style=flat-square&logo=bmw&logoColor=white)](https://freefades2black.github.io/bmw-spartanburg-assembly-lakehouse/)
 * **Target Audience:** BMW Group Plant Spartanburg & Plant Woodruff manufacturing engineering, AIQX quality analytics, AWS Cloud Data Hub teams.
@@ -125,7 +125,7 @@ flowchart TD
   * **15-Mile Woodruff JIS Shuttle Synchronizer:** Monitors battery shuttle convoy transit and Hall 52 buffer stocks (22 packs / 36 min), maintaining **99.82% sequence parity** to avoid $15,000/min line stoppages.
   * **Google TimesFM-3 Takt Forecaster:** Predicts 60-minute forward takt time volatility and downstream starvation with an **18.2-minute advance rebalancing lead window**.
 
-### 7. [🏛️ Greenville, SC Infrastructure & Growth Analytics Lakehouse](https://github.com/FreeFades2Black/greenville-infrastructure-lakehouse) • [Live Dashboard](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
+### 7. [Greenville, SC Infrastructure & Growth Analytics Lakehouse](https://github.com/FreeFades2Black/greenville-infrastructure-lakehouse) • [Live Dashboard](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
 [![Live Dashboard](https://img.shields.io/badge/Live%20Showcase-GitHub%20Pages-emerald?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
 [![7-Domain Ingestion Matrix](https://img.shields.io/badge/7--Domain%20Matrix-Municipal%20Lakehouse-blue?style=flat-square&logo=civicrm&logoColor=white)](https://freefades2black.github.io/greenville-infrastructure-lakehouse/)
 * **Target Audience:** Greenville County Council, City of Greenville Planning Commission, SCDOT District 3, Greenville Water, and Duke Energy Carolinas leadership.
@@ -136,7 +136,7 @@ flowchart TD
   * **Google TimesFM-3 Foundation Forecasting:** 52-week forward projections with calibrated $P_{10}/P_{50}/P_{90}$ quantile cones predicting seasonal traffic and grid peaks with a **2.14% MAPE**.
   * **Counterfactual Capital Policy Simulator:** Proves **$38.5M in avoided CIP capital costs** via Targeted Urban Growth Boundaries, a 34% drop in arterial intersection queuing, and 15% peak grid shaving.
 
-### 8. [🏥 Mosaic Healthcare Multi-Cloud Platform](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
+### 8. [Mosaic Healthcare Multi-Cloud Platform](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
 [![Multi-Cloud Architecture](https://img.shields.io/badge/Architecture-AWS%20%2B%20Azure%20%2B%20Databricks-blue?style=flat-square&logo=databricks&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
 [![HIPAA HITRUST](https://img.shields.io/badge/Compliance-HIPAA%20%7C%20HITRUST-emerald?style=flat-square&logo=shield&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
 [![Terraform IaC](https://img.shields.io/badge/IaC-Terraform%20v1.6%2B-purple?style=flat-square&logo=terraform&logoColor=white)](https://github.com/FreeFades2Black/mosaic-healthcare-multicloud-platform)
@@ -149,7 +149,7 @@ flowchart TD
 
 ---
 
-### 9. [🏛️ Mosaic Health Cloud Architecture & M&A Governance Portal](https://github.com/FreeFades2Black/mosaic-health-cloud-architecture) • [Live Portal](https://freefades2black.github.io/mosaic-health-cloud-architecture/)
+### 9. [Mosaic Health Cloud Architecture & M&A Governance Portal](https://github.com/FreeFades2Black/mosaic-health-cloud-architecture) • [Live Portal](https://freefades2black.github.io/mosaic-health-cloud-architecture/)
 [![Live Architecture Portal](https://img.shields.io/badge/Live%20Portal-GitHub%20Pages-teal?style=flat-square&logo=githubpages&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/)
 [![AI Foundry Gate](https://img.shields.io/badge/AI%20Foundry-Model%20Regulation%20Gate-0078D4?style=flat-square&logo=openai&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/compliance-hitrust/ai-foundry-governance/)
 [![Live Build Monitor](https://img.shields.io/badge/Live%20Monitor-Azure%20Build%20Telemetry-blue?style=flat-square&logo=microsoftazure&logoColor=white)](https://freefades2black.github.io/mosaic-health-cloud-architecture/dashboards/azure-build-monitor/)
@@ -168,7 +168,7 @@ flowchart TD
 
 ---
 
-### 10. [🛸 UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
+### 10. [UAP Sightings Multi-Era Lakehouse & Geospatial Radar](https://github.com/FreeFades2Black/uap-scraper-pipeline) • [Live Dashboard](https://freefades2black.github.io/uap-scraper-pipeline/)
 [![Live Intelligence Radar](https://img.shields.io/badge/Live%20Radar-GitHub%20Pages-purple?style=flat-square&logo=radar&logoColor=white)](https://freefades2black.github.io/uap-scraper-pipeline/)
 * **Core Problem:** Unify fragmented aerial sensor feeds and historical sighting archives from 1480 BC to Present.
 * **Key Innovations:**
@@ -177,7 +177,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Technical Competency & Tooling Matrix
+## Technical Competency & Tooling Matrix
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
@@ -191,7 +191,7 @@ flowchart TD
 
 ---
 
-## 📬 Connect & Collaborate
+## Connect & Collaborate
 
 * **Email:** [whall4.wh@gmail.com](mailto:whall4.wh@gmail.com)
 * **LinkedIn:** [linkedin.com/in/william-free-hall](https://linkedin.com/in/william-free-hall)
